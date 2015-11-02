@@ -1,0 +1,44 @@
+    <!doctype html>
+<html>
+
+  <head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="viewport" content="initial-scale=1">
+    <title>Theo Retro | Retro Neon</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    
+    <meta content="Theo Retro is an organization based out of Orlando, record plus clothing label."></meta>
+
+
+    <!--Include sqs scripts, meta tags, and user content from the code injection tab.-> 
+    
+    {squarespace-headers}
+    
+
+    
+    <!-- Google Web Fonts -->
+    
+    <link href='https://fonts.googleapis.com/css?family=Hind:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- End Google Web Fonts--> 
+
+
+
+  </head>
+
+
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes}">	
+  
+  
+  
+	<squarespace:navigation navigationId="mainNav" template="mainNav" />
+	
+
+
+            
+
+        
+        

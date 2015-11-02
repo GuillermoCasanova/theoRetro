@@ -1,0 +1,130 @@
+
+
+<!-- Footer for site--> 
+<footer class="section  section--primary" data-content-field="main-content">
+	
+    <div class='row'>
+
+    	<div class='small-12  medium-8  medium-centered  large-uncentered  large-push-3 columns  mb5'>
+
+            <div class='row'>
+    		
+        	   	<div class='small-12 large-6 columns'>
+        	   	
+        	   		<!-- Contact email--> 
+        	   		<div class="row">
+        	   				
+        	   			<div class="small-12  [ pt5 pb3  ] ">
+
+        	   				<h1 class="mt2 h2  fwb txtc3">
+        	   					INFO@THEORETRO.COM
+        	   				</h1>
+        	   					
+        	   			</div>
+        	   					
+        	   		</div>
+        	   				   
+        	   			   
+        			<!-- Social Icons--> 
+        			 <div class='row'>
+        			   
+        	   			<div class='small-12 columns'>
+        	   			
+        	   				<ul class='list--inline  mb5  row  small-collapse'>
+        	   				
+        	   					<li class="small-3  columns">
+        	   						<a href='https://www.facebook.com/TheoRetroORL?hc_location=ufi' target="_blank" class='icon--facebook icon--large txtc3'>
+        	   						
+        	   						</a>
+        	   						
+        	   					</li>
+        	   					
+        	   					<li  class="small-3  columns">
+        	   						<a href='https://twitter.com/th20r80' targe="_blank"  class='icon--twitter icon--large txtc3'></a>
+        	   					</li>
+        	   					<li  class="small-3 olumns">
+        	   						<a href='https://soundcloud.com/retro-neon' target="_blank"  class='icon--soundcloud icon--large txtc3'></a>
+        	   					</li>
+        	   					<li  class="small-3  columns">
+        	   						<a href='https://instagram.com/th20r80/' target="_blank"  class='icon--instagram icon--large txtc3'></a>
+        	   					</li>
+        	   				
+        	   				</ul>
+        			   					
+        	   			</div>
+        	   			   	 					 
+        		   </div>
+        		   
+        	   </div>
+
+                <div class='small-12 large-6 columns'>
+
+                    <ul id="instagram-stream"  class="block-grid-2  medium-up-block-grid-3">
+
+                    <li class='small-4 columns'></li>
+                    <li class='small-4 columns'></li>
+                    <li class='small-4 columns'></li>
+                    <li class='small-4 columns'></li>
+                    <li class='small-4 columns'></li>
+                    <li class='small-4 columns'></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+    	
+        </div>
+
+    </div>
+
+   <!-- Site Credit--> 
+	<div class='row'>
+
+        <div class="small-12 columns medium-8  medium-centered  large-uncentered  large-push-3  section-text">
+        	
+        		(c) 2015 Theo Retro |  Site by <a target='_blank' href='http://guillermo-casanova.com/' classs="section-text">Guillermo Casanova</a>
+        	        
+        </div>
+
+
+	</div>
+    
+</footer>
+
+
+
+    
+  <!--   <script src="https://ted-massena-wev7.squarespace.com/"></script>
+ -->
+    <!-- build:js scripts/vendor/libraries.min.js -->
+    <!-- bower:js -->
+    <script src="/scripts/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/scripts/bower_components/fastclick/lib/fastclick.js"></script>
+    <script src="/scripts/bower_components/jquery.cookie/jquery.cookie.js"></script>
+    <script src="/scripts/bower_components/gsap/src/uncompressed/TweenMax.js"></script>
+    <script src="/scripts/bower_components/gsap/src/uncompressed/plugins/ScrollToPlugin.js"></script>
+    <script src="/scripts/bower_components/ScrollMagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
+    <script src="/scripts/bower_components/ScrollMagic/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+    <script src="/scripts/bower_components/jquery.lazyload/jquery.lazyload.js"></script>
+    <script src="/scripts/bower_components/jquery.lazyload/jquery.scrollstop.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js /scripts/vendor/foundation.min.js -->
+    <script src="/scripts/bower_components/foundation/js/foundation/foundation.js"></script>
+    <script src="/scripts/bower_components/foundation/js/foundation/foundation.offcanvas.js"></script>
+    <script src="/scripts/bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+    <script src="/scripts/bower_components/foundation/js/foundation/foundation.interchange.js"></script>
+    <!-- endbuild -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
+    
+    <!-- build:js scripts/app.min.js -->
+    <script src="/scripts/app.js"></script>
+    <script src="/scripts/main-nav.js"></script>
+    <script src="/scripts/carousel-videos.js"></script>
+    <script src="/scripts/instagram-stream.js"></script>
+    <!-- endbuild -->
+
+	
+  </body>
+</html> 

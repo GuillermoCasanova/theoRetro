@@ -1,0 +1,127 @@
+
+{.section item}
+
+  <!--WRAPPER-->
+  
+  <article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
+    
+    <!--POST TILE-->
+    <div class="section  section--tertriary  section--alt  text-center  ptb5 ">
+    
+
+            
+         <img class="section-bg" src="{assetUrl}" alt="">
+  
+        <div class="row">
+
+            <div class="small-12 columns">
+
+                <h1 class="uc  fwb  mtb3  txtc3  text--mega" data-content-field="title">
+                    {title}
+                </h1>
+                   
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--MAIN CONTENT-->
+
+    <div class="section">
+        <div class="row">
+        
+            <div class="small-12 medium-10  medium-centered  columns ">
+               <div class="par--important"> {body}</div>
+            </div>
+        
+        </div>
+    </div>
+
+
+ <div class="section">
+     <div class="row">
+         <div class="small-12 medium-10  medium-centered  columns">   <!--BLOG INJECTION-->
+             
+             {postItemInjectCode}    
+             
+             <!--CATEGORIES-->
+             
+             {.repeated section categories}
+               <a class="category" href="{collection.fullUrl}?category={@|url-encode}">{@}</a>{.alternates with},
+             {.end}
+             
+             <!--TAGS-->
+             
+             {.repeated section tags}
+               <a class="tag" href="{collection.fullUrl}?tag={@|url-encode}">{@}</a>{.alternates with},
+             {.end}
+             
+             <!--SHARE AND LIKE-->
+             
+             {@|like-button}
+             {@|social-button}
+             
+             <!--AUTHOR AND DATE-->
+             
+             <p class="h5  mt4">
+               Published on <a href="{fullUrl}"><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> by <a href="{collection.fullUrl}?author={author.id}">{author.displayName}</a>.
+               {.section sourceUrl}
+                 <a href="{@}" class="source" target="_blank">Source</a>.
+               {.end}
+             </p>        
+             
+             <!--LOCATION-->
+             
+             {.section location}
+               {.section addressTitle}
+                 {addressTitle}
+                 {addressLine1}
+                 {addressLine2}
+                 {addressCountry}
+               {.end}
+             {.end}
+             
+             <!--COMMENTS-->
+             
+             {@|comments}</div>
+     </div>
+
+ </div>
+
+</article>
+
+{.end}
+    
+
+<!--PAGINATION-->
+<div class="section">
+    <div class="row  ptb5">
+        <div class="small-12 columns  medium-10  medium-centered  text-right">  
+            {.section pagination}
+              <nav>
+            
+                <!--NEWER PAGE-->
+            
+                {.section prevItem}
+                      <a  class="button  button--primary  large"  href="{fullUrl}"><span class="icon--left icon--medium"></span></a>
+                {.or}
+                  
+                {.end}
+                
+                <!--OLDER PAGE-->
+            
+                {.section nextItem}
+                  <a  class="button  button--primary  button--animStyle1  large"  href="{fullUrl}">
+
+                    <span class="icon--right  icon--medium  animStyle-elem1"></span>
+                    <span class="animStyle-elem2">Next</span> 
+                </a>
+                {.or}
+                  
+                {.end}
+            
+              </nav>
+            {.end}</div>
+    </div>
+</div>

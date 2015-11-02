@@ -1,0 +1,80 @@
+<section>
+          
+    <div class='section--highlighted'>
+    		
+    	<div class='row'>
+    	
+    		<div class='small-12 columns'>
+    					
+    					
+    			<ul class='list--inline  h6 fwb mt3  pl3  uc'>
+    			
+    				<li>{collection.title} </li>
+    				
+    			</ul>
+    			 
+    				 
+    		</div>
+    	
+    	</div>
+
+    </div>
+	
+	
+  	<div class="row  vh100  pt5">
+  	
+  		
+  		<div class="small-12  large-11  columns">
+  			
+  			  <div class="row">
+  								  
+  			  	{.repeated section items}
+  	
+					<a href='{fullUrl}'>
+					
+						<div class="small-12  medium-6  large-4 columns  prl3">
+							
+							
+							<div class="thumbnail  thumbnail2  thumbnail--tall">
+							
+								
+								<div class='thumbnail-image'>
+								
+									<img src="{assetUrl}" height="300px"  class="image--responsive">
+									
+								</div>
+								
+								<div class='thumbnail-description pt2  text-center'>
+								
+									<div class='thumbnail-title'>
+				
+										<h1 class='h2  fwb  mb1 '>
+											
+											{title}
+											
+										</h1>
+										
+										<h2 class='h3'>{@|product-price}</h2>
+									
+									</div>
+									
+								</div>
+								
+							</div>
+							
+						</div>
+						
+					</a>
+						
+  			  	{.end}
+  									
+  			  
+  			  </div>
+  			 
+  		  </div>
+  	
+  		</div>
+  	
+  	</div>
+
+</section>

@@ -1,0 +1,76 @@
+<section> 
+
+	<div class='section  relative'>
+	
+	
+	<!--    <div class="section-bg  alt  vh100">
+	
+	        <div role="presentation" class="vh100"  style="background:url(/assets/images/bg1--small.png) no-repeat center center; background-size: cover;">
+	            
+	        </div>
+	        
+	    </div>-->
+	
+		
+		<div class='row '>
+		
+			
+			
+			<div class='small-12 columns   medium-6   medium-push-1'>
+			
+					<h1 class='txtc3  uc fwb lhb'>Look book vol.1 </h1>
+					
+					<p>
+							<ul>
+							<li><span class='fwb'>Photography:</span> Trapghanistan</li>
+							<li><span class='fwb'>Book: </span>Trapghanistan</li>
+							<li><span class='fwb'>Art Direction:</span> Ted Massena</li>
+							<li><span class='fwb'>Illustrations:</span> Trippyville Art</li>
+						</ul>
+					</p>
+			</div>
+		
+		</div>
+				
+		<div class='row'>
+		
+			<div class='small-12 medium-10 medium-push-1'>
+			
+				<div class='row'>
+								<div class="small-12 columns">
+								    
+								    <img src="/assets/lookbook6.png" alt="">
+								</div>
+								
+					
+						
+						<div class='small-12 columns medium-6'>
+							<img src='/assets/lookbook2.png' alt='' />
+						</div>
+						
+						<div class='small-12 columns medium-6'>
+							<img src='/assets/lookbook3.png' alt='' />
+						</div>
+						<div class='small-12 columns'>
+						
+							<img src='/assets/lookbook1.png' alt='' />
+						</div>
+
+            
+						<div class='small-12 columns medium-6'>
+							<img src='/assets/lookbook4.png' alt='' />
+						</div>
+						
+						<div class='small-12 columns medium-6'>
+							<img src='/assets/lookbook5.png' alt='' />
+						</div>
+		
+				</div>
+				
+			</div>
+				
+		</div>
+	
+	</div>	
+				
+</section>

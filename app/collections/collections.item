@@ -1,0 +1,43 @@
+
+{.section item}
+<div class="section">
+
+    <div class='row'>
+    
+        <div class='small-12 medium-10 medium-push-1 colmns'>
+                        
+            <article>
+    
+                <h1 class='txtc3  uc  fwb'>{customContent.headline}</h1>
+                
+                <div>
+                    {customContent.description.html}
+                
+                </div>
+                
+                <div class="row">
+                
+                    {.repeated section customContent.images}
+                        
+                        <ul>
+
+                            <li class="small-12 columns text-center  mtb3">
+
+                                <img src="{assetUrl}" alt="">
+
+                            </li>
+
+                        </ul>
+
+                    {.end}
+                
+                </div>
+    
+            </article>
+    
+        </div>
+        
+    </div>
+
+</div>
+{.end}

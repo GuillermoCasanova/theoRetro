@@ -1,0 +1,242 @@
+
+/*------------------------------------*\
+    #Typography 
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+    #Reset
+\*------------------------------------*/
+
+
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+pre, form, fieldset, input, textarea,
+p, blockquote, th, td { 
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset, img {
+  border: 0;
+}
+address, caption, cite, dfn, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+caption, th {
+  text-align: left;
+}
+
+q:before, q:after {
+  content: '';
+}
+abbr, acronym {
+  border: 0;
+}
+
+a{ 
+  text-decoration: none;
+   color: $secondaryColor;
+   @include single-transition(color, .2s, ease-in-out); 
+
+    &:hover {
+
+        color: $secondaryColor--dark; 
+    }
+ }
+
+
+
+
+
+/*------------------------------------*\
+    #Base  
+\*------------------------------------*/
+/*  Base font sizes, margin-bottoms, and properties */
+
+body, html {	
+	font-family: $base-font-family; 
+	font-size: $base-font-size; 
+    line-height: $base-font-line-height; //24px 
+}
+
+// 24px magic number, all line heights and margin bottoms will be multiples of this
+// to maintain vertical and line  height rhythm 
+
+/* Common margin-bottom for vertical rhythm. */
+h1,h2,h3,h4,h5,h6,
+ul,ol,dl,
+fieldset,
+p,
+table,
+pre,
+hr{
+    margin-bottom: rem-calc(24px);
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    #Header Styles and Sizes 
+\*------------------------------------*/
+
+// Default font family for all headers 
+h1,h2,h3,h4,h5,h6 {
+    font-family: $serif-font-family;
+}
+
+h1, 
+.h1 { 
+	@extend %h1; 
+}
+
+h2, 
+.h2 { 
+	@extend %h2; 
+}
+
+h3, 
+.h3 { 
+	@extend %h3; 
+}
+
+h4, 
+.h4 { 
+	@extend %h4; 
+}
+
+h5, 
+.h5 { 
+	@extend %h5; 
+}
+
+h6, 
+.h6 { 
+	@extend %h6; 
+}
+
+.text--mega { 
+	@extend %text--mega; 
+}
+
+.text--micro { 
+	@extend %text--micro; 
+}
+
+
+
+.lhb {
+	
+	line-height:  1;
+	
+}
+
+
+
+/*------------------------------------*\
+    #Paragraph Styles
+\*------------------------------------*/
+
+
+.par--subText {
+	@extend %h7; 
+}
+
+
+.par--important {
+    @extend %h3; 
+    line-height: 1.5; 
+}
+
+
+
+
+/*------------------------------------*\
+    #Links
+\*------------------------------------*/
+
+
+a,
+.link {
+	@extend %disableDefaultHighlight;
+     @include single-transition(all, .3s, ease-in-out);
+
+}
+
+
+.link--underline {
+	text-decoration: underline; 
+
+	&:hover {
+		text-decoration: none; 
+	}
+}
+
+
+
+
+
+/*------------------------------------*\
+    #Font Color Classes 
+\*------------------------------------*/
+
+.txtc2 {
+    @extend %txtc2; 
+}
+
+.txtc3 {
+    @extend %txtc3; 
+}  
+
+
+
+.txtc4 {
+    @extend %txtc4; 
+}
+
+
+
+
+
+/*------------------------------------*\
+    #Text Weights (Variables defined in _typography.scss module)
+\*------------------------------------*/
+
+
+.fwn {font-weight: $normal;}
+.fwb {font-weight: $bold;}
+.uc {text-transform: uppercase;}
+
+
+
+
+
+/*------------------------------------*\
+    #Text Alignments  
+\*------------------------------------*/
+
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+
+
+/*------------------------------------*\
+    #hrs  
+\*------------------------------------*/
+
+
+.hr1 {
+
+	width: 30%; 
+}
+
+

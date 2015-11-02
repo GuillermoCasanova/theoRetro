@@ -1,0 +1,201 @@
+
+/*------------------------------------*\
+    #Icons 
+\*------------------------------------*/
+
+
+
+
+
+
+/*------------------------------------*\
+    #Fon-face font-family  
+\*------------------------------------*/
+
+
+@font-face {
+  font-family: 'siteIcons';
+  src: url('../assets/fonts/siteicons.eot?66118239');
+  src: url('../assets/fonts/siteicons.eot?66118239#iefix') format('embedded-opentype'),
+       url('../assets/fonts/siteicons.woff?66118239') format('woff'),
+       url('../assets/fonts/siteicons.ttf?66118239') format('truetype'),
+       url('../assets/fonts/siteicons.svg?66118239#siteicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #Master Icon Class  (Applies to all icons)
+\*------------------------------------*/
+
+// Main styles for all icons before and after text 
+ [class^="icon--"]:before, [class*="icon--"]:before,
+  [class^="icon--"]:after, [class*="icon--"]:after {
+    font-family: "siteIcons";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    text-align: center;
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+    // Increase size of all icons 
+    font-size: 110%;
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+[class^="icon--"]:before, [class*="icon--"]:before {
+
+    margin-right: .2em;
+
+}
+
+[class^="icon--"]:after, [class*="icon--"]:after {
+
+    margin-left: .2em;
+
+}
+
+
+
+
+// .icon-left-open:before { content: '\e800'; } /* '' */
+// .icon-right-open:before { content: '\e801'; } /* '' */
+// .icon-headphones:before { content: '\e802'; } /* '' */
+// .icon-instagram:before { content: '\e803'; } /* '' */
+// .icon-money:before { content: '\e804'; } /* '' */
+// .icon-diamond:before { content: '\e805'; } /* '' */
+// .icon-globe:before { content: '\e806'; } /* '' */
+// .icon-twitter:before { content: '\e807'; } /* '' */
+// .icon-facebook:before { content: '\e808'; } /* '' */
+// .icon-down-open:before { content: '\e809'; } /* '' */
+// .icon-up-open:before { content: '\e80a'; } /* '' */
+// .icon-play:before { content: '\e80b'; } ''
+// .icon-globe-1:before { content: '\e80c'; } /* '' */
+// .icon-globe-alt:before { content: '\e80d'; } /* '' */
+// .icon-camera:before { content: '\e80e'; } /* '' */
+// .icon-video:before { content: '\e80f'; } /* '' */
+// .icon-th-list:before { content: '\e810'; } /* '' */
+// .icon-menu:before { content: '\e811'; } /* '' */
+// .icon-flash-1:before { content: '\e812'; } /* '' */
+// .icon-soundcloud:before { content: '\e813'; } /* '' */
+// .icon-pencil:before { content: '\e818'; } /* '' */
+// .icon-smile:before { content: '\e81a'; } /* '' */
+// .icon-frown:before { content: '\e81b'; } /* '' */
+// .icon-meh:before { content: '\e81c'; } /* '' */
+
+
+
+/*------------------------------------*\
+    #UI Elements 
+\*------------------------------------*/
+
+.icon--left:before          { content: '\e800'; } 
+.icon--left-a:after         { content: '\e800'; } 
+.icon--right:before         { content: '\e801'; } 
+.icon--right-a:after        { content: '\e800'; }
+.icon--down:before          { content: '\e809'; } 
+.icon--up-open:before       { content: '\e80a'; } 
+.icon--menu:before          { content: '\e811'; } 
+.icon--cancel:before         { content: '\e816'; } 
+.icon--ok:before             { content: '\e817'; } 
+.icon--pencil:before         { content: '\e818'; } 
+.icon--plus:before           { content: '\e819'; } 
+
+
+
+
+
+/*------------------------------------*\
+    #Social Media 
+\*------------------------------------*/
+
+
+.icon--twitter:before           { content: '\e807'; } 
+.icon--facebook:before          { content: '\e808'; } 
+.icon--soundcloud:before        { content: '\e813'; } 
+.icon--instagram:before         { content: '\e803'; } 
+
+
+
+
+
+
+/*------------------------------------*\
+    #Contact  
+\*------------------------------------*/
+
+
+.icon--mail:before               { content: '\e815'; } 
+
+
+
+
+
+/*------------------------------------*\
+    #Site Specific 
+\*------------------------------------*/
+
+
+.icon--globe2:before            { content: '\e802'; } 
+.icon--heart2:before            { content: '\e804'; } 
+.icon--heart:before              { content: '\e805'; }
+.icon--globe:before              { content: '\e806'; } 
+.icon--play:before               { content: '\e80b'; }
+.icon--globe1:before            { content: '\e80c'; } 
+.icon--globe-alt:before          { content: '\e80d'; } 
+.icon--heart-2:before            { content: '\e80e'; } 
+.icon--music:before              { content: '\e80f'; } 
+.icon--quote:before              { content: '\e810'; } 
+.icon--money:before              { content: '\e811'; }
+.icon--tools:before              { content: '\e812'; }
+
+
+
+
+
+
+
+/*------------------------------------*\
+    #Icon Sizes 
+\*------------------------------------*/
+
+
+.icon--mega {
+    font-size: rem-calc(80);
+    line-height: 1; 
+}
+
+.icon--large {
+  @extend %h1;
+}
+
+.icon--medium {
+  @extend %h2;
+}
+
+.icon--small {
+  @extend %h4; 
+}
+
+.icon--tiny {
+   margin: rem-calc(4); 
+  font-size: rem-calc(12);
+}
+

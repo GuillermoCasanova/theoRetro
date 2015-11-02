@@ -1,0 +1,20 @@
+
+
+<div class="row small-collapse">
+
+    <div class='small-12  large-10  large-push-2  columns  overflow-hidden'>
+        
+        <!--Hero Header--> 
+        <div class='row small-collapse  slideshow1'  data-ui-component='carousel-featured-news'>
+    
+            <squarespace:query collection='featured'>
+            {.repeated section items}
+                {@|apply featured-news.block}
+            {.end}
+            </squarespace:query>
+    
+        </div>
+        
+    </div>
+
+</div>

@@ -1,0 +1,75 @@
+    
+/*------------------------------------*\
+    #Lists  
+\*------------------------------------*/
+
+
+//Removes List Styles by default
+li, 
+ul {
+  list-style: none; 
+}
+
+
+.list {
+  @extend %list;
+}
+
+
+.list--inline {
+  & > li {
+    display: inline-block; 
+  }
+}
+
+
+.list--bullet {
+    @extend %ml3; 
+    @extend %list;
+
+  & > li:before {
+      content: '\2022';
+      display: block;
+      position: relative;
+      max-width: 0;
+      max-height: 0;
+      left: rem-calc(-20px); 
+      top: rem-calc(-2px);
+      color: $primaryColor;
+      font-size: rem-calc(20); 
+  }
+}
+
+
+.list--siteMap {
+
+    @extend %h4; 
+    
+    [class*="list-item"] {
+    
+        &:hover {
+
+        text-decoration: underline; 
+
+        }
+
+    }
+
+    .list-item {
+
+        color: $secondaryColor;  
+    
+    }
+
+    .list-item--subItem {
+
+        color: $grey--dark;
+
+        &:hover {
+            color: $secondaryColor; 
+        }
+
+    }
+
+}
+

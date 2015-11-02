@@ -1,0 +1,212 @@
+
+/*------------------------------------*\
+    #Navigation Styles  
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+    #Base Styles  
+\*------------------------------------*/
+
+
+
+.mainNav {
+
+    background-color: $offBlack;
+
+    .mainNav-link {
+        @extend %txtc2; 
+        @extend %fwb; 
+        @extend %uc; 
+
+        &:hover,
+        &:focus {
+            @include animation-name(flicker);
+            @include animation-duration(3s); 
+            @include animation-iteration-count(infinite); 
+            @include animation-timing-function(linear); 
+
+        }
+    }
+    
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    #Main Navigation Small 
+\*------------------------------------*/
+
+
+.mainNav--small {
+
+    z-index: 999; 
+    width: 100%;    
+    min-height: rem-calc(70px);
+    @extend %dropshadow1; 
+    @extend %position--fixed; 
+    @include single-transition(all, .4s, ease-in-out);
+    
+
+    .mainNav-controls {
+        width: 100%;
+        @extend %display--block;  
+        @extend %position--relative;  
+        @extend %pt1; 
+    }
+    
+    .mainNav-logo {
+        width: rem-calc(160px);
+        @extend %left;
+        @extend %mt1;  
+    }
+
+    .mainNav-menuIcon {
+        text-align: right;
+        fill: #fff;  
+        width: rem-calc(45px);
+        height: rem-calc(45px);
+        @include single-transition(all, .2s, ease-in-out); 
+        @extend %fwb; 
+        @extend %right;
+        @extend %mr2; 
+        @extend %mt1; 
+        @extend %position--relative; 
+        @extend %txtc2; 
+
+        &:hover,
+        &:focus {
+            cursor: pointer; 
+        }
+    }
+
+    .mainNav-menu {
+        overflow: hidden;
+        width: 100%; 
+        height: 0; 
+        opacity: 0; 
+        background-color: $offBlack;
+        @include single-transition(all, .2s, ease-in-out);
+        @extend %display--block;  
+        @extend %text-center;
+
+        .menu-link, 
+        .menu-item {
+            //@extend %txtc4; 
+        }
+
+        .menu-link {
+            
+            z-index: 30; 
+            @extend %uc; 
+            @extend %fwb; 
+            @extend %txtc2; 
+            @extend %position--relative; 
+
+            &:hover,
+            &:focus {
+                
+                @include animation-name(flicker);
+                @include animation-duration(3s); 
+                @include animation-iteration-count(infinite); 
+                @include animation-timing-function(linear); 
+            
+
+            }
+
+        }
+
+
+        .menu-close {
+
+            right: 0;
+            position: absolute;
+            top: 20px;
+            @extend %txtc2; 
+            @extend %fwb; 
+            @extend %pr3; 
+        }
+    
+    }
+    
+    button {
+        font-size: rem-calc(16);
+        height: auto; 
+        top: 0;
+        @extend %position--relative; 
+        @include button--outline(#fff);
+
+        &:focus,
+        &:active,
+        &:hover  {
+            color: $secondaryColor; 
+        }
+
+    }
+
+    &.is-showing {
+
+         .mainNav-menu {
+            opacity: 1; 
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            height: 100vh;
+         }
+
+    }
+
+}
+
+
+
+
+
+/*------------------------------------*\
+    #Main Navigation Small Hidden/Showing 
+\*------------------------------------*/
+
+
+.mainNav--small {
+    @extend %improveAnimation; 
+
+    &.is-hidden{
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 99;
+        @include translateY(-120px); 
+
+    }
+}
+
+
+.mainNav--large {
+	
+	//background-color: $accentColor;
+    z-index: 998; 
+	@extend %position--fixed; 
+    @extend %pr3;  
+    @extend %vh100; 
+	@include box-shadow(0 0 24px rgba(0, 0, 0, 0.7)); 
+
+	.mainNav-link {
+        @extend %txtc2; 
+		@extend %fwb; 
+        @extend %uc; 
+
+        &:hover,
+        &:focus {
+                @include animation-name(flicker);
+                @include animation-duration(3s); 
+                @include animation-iteration-count(infinite); 
+                @include animation-timing-function(linear); 
+            
+        }
+	}
+	
+}

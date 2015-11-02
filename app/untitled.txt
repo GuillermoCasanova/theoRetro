@@ -1,0 +1,459 @@
+
+    <div class="container" data-content-field="main-content">  
+        
+        {.section website} 
+        
+
+      <header class="vh100  section  section--alt"  >
+
+            <div class="section-bg">
+
+                <div role="presentation" class="vh100" data-interchange="[asset/images/bg1--small.jpg, (default)], [asset/images/bg1--medium.jpg, (medium)], [asset/images/bg1--large.jpg, (large)]" style="background:url(assets/images/bg1--small.png) no-repeat center center; background-size: cover;">
+                    
+                </div>
+                
+            </div>
+                
+            <div class="row">
+                
+                <div class="small-5 columns  end">
+                    
+                    <img src="assets/logo--theoRetro.svg" alt="">   
+                     
+                </div>
+
+            </div>
+
+            <div class="row">
+                
+
+                <div class="small-12 columns">
+                    
+                    <h1>Cult host of worldwide functions.</h1>
+
+                </div>
+
+            </div>
+ 
+      </header>
+
+        
+        <!-- Roster--> 
+      <section>
+
+        <div class="row">
+            
+            <div class="small-12 columns">
+                
+                <h1>Roster</h1>
+                
+            </div>
+
+        </div>          
+
+        <div class="row">
+            
+            <div class="small-12 columns">
+                
+
+                <ul class="row">
+                
+                    <li class="small-12  medium-3  columns">
+                        
+
+						<div class="thumbnail  thumbnail--wide">
+
+							<div class="thumbnail-image">
+                        		
+                        		<img src="assets/images/artist1.jpg" class="image--responsive">
+                        		
+                        	
+                        	</div>
+                        	
+                        	
+                        	<div class='thumbnail-description  text-center pl2  pt2'>
+	                        	
+	                        	<div class='thumbnail-title'>
+	                        	
+	                        		<h1 class="h4  uc  mb2">Artist name</h1>	
+	                        		                        		 
+	                        	</div>
+	                        	
+	                        	<hr class="mtb1  hr1"/>
+	                        	
+	                        	<div class='thumbnail--subText'>
+	                        	
+	                        		<ul class="list--inline">
+	                        		
+	                        			<li class='icon--facebook  icon--large'></li>
+	                        			<li class='icon--facebook  icon--large'></li>
+	                        			<li class='icon--facebook  icon--large'></li>
+	                        			
+	                        		</ul>
+	                        		
+	                        	</div>
+	                        	 
+                        	</div>
+                        	
+                        </div>              
+
+                    </li>   
+                    
+                    <li class="small-12   medium-3  columns">
+                        
+
+						<div class="thumbnail  thumbnail--wide">
+
+							<div class="thumbnail-image">
+                        		
+                        		<img src="assets/images/artist2.jpg" class="image--responsive">
+                        		
+                        	
+                        	</div>
+                        	
+                        	
+                        	<div class='thumbnail-description  text-center pl2  pt2'>
+	                        	
+	                        	<div class='thumbnail-title'>
+	                        	
+	                        		<h1 class="h4  uc  mb2">Artist name</h1>	
+	                        		                        		 
+	                        	</div>
+	                        	
+	                        	<hr class="mtb1  hr1"/>
+	                        	
+	                        	<div class='thumbnail--subText'>
+	                        	
+	                        		<ul class="list--inline">
+	                        		
+	                        			<li class='icon--facebook  icon--large'></li>
+	                        			<li class='icon--facebook  icon--large'></li>
+	                        			<li class='icon--facebook  icon--large'></li>
+	                        			
+	                        		</ul>
+	                        		
+	                        	</div>
+	                        	 
+                        	</div>
+                        	
+                        </div>              
+
+                    </li>   
+                                       
+                    <li class="small-12  medium-3	end columns">
+                        
+
+						<div class="thumbnail  thumbnail--wide">
+
+							<div class="thumbnail-image">
+                        		
+                        		<img src="assets/images/artist3.jpg" class="image--responsive">
+                        		
+                        	
+                        	</div>
+                        	
+                        	
+                        	<div class='thumbnail-description  text-center pl2  pt2'>
+	                        	
+	                        	<div class='thumbnail-title'>
+	                        	
+	                        		<h1 class="h4  uc  mb2">Artist name</h1>	
+	                        		                        		 
+	                        	</div>
+	                        	
+	                        	<hr class="mtb1  hr1"/>
+	                        	
+	                        	<div class='thumbnail--subText'>
+	                        	
+	                        		<ul class="list--inline">
+	                        		
+	                        			<li class='icon--facebook  icon--large'></li>
+	                        			<li class='icon--facebook  icon--large'></li>
+	                        			<li class='icon--facebook  icon--large'></li>
+	                        			
+	                        		</ul>
+	                        		
+	                        	</div>
+	                        	 
+                        	</div>
+                        	
+                        </div>              
+
+                    </li>   
+                                   
+                </ul>            
+    
+            </div>
+
+        </div>   
+
+      </section>
+
+    
+
+        <!-- Upcoming Events--> 
+      <section>
+          
+        <div class="row">
+            
+            <div class="small-12 columns">
+                
+                <h1>Upcoming Events</h1>
+                
+            </div>
+
+        </div>     
+
+        <div class="row">
+            
+            <div class="small-12 columns">
+                
+                <div class="row">
+                    
+                    <div class="small-12 columns">
+                        
+						<div class='thumbail thumbnail2'>
+						
+						<div class='thumbnail-date'>
+						
+							<h3 class="mb2">05.08.11</h3>
+							
+						</div>
+                        
+                        <div class="thumbnail-image">
+                        	
+                        	
+                        </div>	
+                        
+                        <div class='thumbnail-description  text-center  pt2'>
+                        
+	                        <button class="button--primary  medium  center">
+	                        	Tickets
+	                        </button>
+	                        
+                        </div>
+       
+                  </div>	
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+      </section>    
+
+
+		<!-- Store Components--> 
+      <section>
+          
+          <div class="row">
+              
+            <div class="small-12 columns">
+                
+                <h1>Store</h1>
+
+            </div>
+
+          </div>
+
+
+          <div class="row">
+              
+              <div class="small-12 columns">
+                  
+                    <div class="row">
+                    
+                        <div class="small-6 medium-4  columns">
+                            
+                            
+                            <div class="thumbnail  thumbnail--tall">
+                            
+                            	
+                            	<div class='thumbnail-image'>
+                            	
+                            		<img src="assets/images/shirt1.jpg" height="300px"  class="image--responsive">
+                            		
+                            	</div>
+                            	
+                            	<div class='thumbnail-description'>
+                            	
+                            		<h1 class='h3'>
+                            			
+                            			Item Name 
+                            			
+                            		</h1>
+                            		
+                            		<h2 class='h4'>$9999.99</h2>
+                            	
+                            	</div>
+                            	
+                            </div>
+                            
+                        </div>    
+                    
+        
+                    
+                    <div class="small-6 medium-4 end columns">
+                        
+                        
+                        <div class="thumbnail  thumbnail--tall">
+                        
+                        	
+                        	<div class='thumbnail-image'>
+                        	
+                        		<img src="assets/images/shirt1.jpg" height="300px"  class="image--responsive">
+                        		
+                        	</div>
+                        	
+                        	<div class='thumbnail-description'>
+                        	
+                        		<h1 class='h3'>
+                        			
+                        			Item Name 
+                        			
+                        		</h1>
+                        		
+                        		<h2 class='h4'>$9999.99</h2>
+                        	
+                        	</div>
+                        	
+                        </div>
+                        
+                    </div>    
+                    
+                    
+                    </div>
+                   
+                </div>
+
+              </div>
+
+          </div>
+
+      </section>
+	   
+	   
+	   <!-- Single Event View--> 
+	   
+	   <section>
+	   	
+	   	
+	   		<div class='row'>
+	   		
+	   			<div class='newspost small-12 columns'>
+	   			
+	   				<div class='newspost-image  small-12 medium-4  medium-push-8  columns'>
+	   					
+	   					<img src="http://payload330.cargocollective.com/1/3/126265/8919280/RIA-FestPoster--WEB_936.png" class="image--responsive--">
+	   				
+	   				</div>
+	   				
+	   				<div class='newspost-body  small-12 medium-8  medium-pull-4  columns'>
+	   				<h1 class='mb2'>
+	   				Upcoming event name 
+	   				</h1>
+	   				
+	   				<h2>Sep. 15th, 2015</h2>
+	   				
+	   				
+						<div class='row'>
+							
+							
+							<div class='small-12 medium-6 columns'>
+							
+							<button class="button--primary  button--expanded  large">
+							Purchase
+							</button>
+							
+							</div>
+							
+							
+							<div class='small-12 medium-6 columns'>
+							
+							
+							
+									<button class="button--primary  button--expanded  large">
+									RSVP
+									</button>		
+							
+							
+							
+							</div>
+
+							
+			
+						</div>
+							
+							
+							<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste, aspernatur ipsam est vero nostrum rem laborum quae velit nihil rerum atque unde voluptatibus incidunt veritatis quasi animi molestias maxime?
+							</p>	   				
+						
+	   				</div>
+	   					   				
+	   			</div>
+	   		
+	   		
+	   		</div>
+	   
+	   
+	   
+	   </section>
+	   
+	   
+	         
+      
+      
+      <!-- Single Item View--> 
+      <section> 
+      
+      	<div class="row"> 
+      	
+			<div class='small-12 medium-8  medium-push-4  columns'>
+			
+					<div class="thumbnail  thumbnail--tall">
+			      	
+			      		
+			      		<div class='thumbnail-image'>
+			      		
+			      			<img src="assets/images/shirt1.jpg" height="300px"  class="image--responsive">
+			      			
+			      		</div>
+			      		
+			      	</div>
+      	
+      		</div>	
+      		
+    
+      	
+      		<div class="small-12  medium-4   medium-pull-8  columns">
+
+						
+				<div class='row  small-text-center medium-text-left'>
+
+					<div class='small-12 columns'>
+
+						<h1 class='mb2'>
+						Shirt 1
+						</h1>
+						
+						<h2>$9999.99</h2>
+						
+						<button class="button--primary  button--expanded  large">
+						Purchase
+						</button>
+						
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste, aspernatur ipsam est vero nostrum rem laborum quae velit nihil rerum atque unde voluptatibus incidunt veritatis quasi animi molestias maxime?
+						</p>	
+						
+					</div>			  			
+				
+				</div>
+   	
+      		</div>
+      		
+      	</div>

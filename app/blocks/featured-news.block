@@ -1,0 +1,31 @@
+
+    <div class='small-12 columns prl0'>
+        
+        <header class="vh100 section--alt section--secondary section--hero"  >
+        
+            <div class="section-bg  alt">
+        
+                <div role="presentation" class="vh100" style="background:url({customContent.image.assetUrl}) no-repeat center center; background-size: cover;">
+                    
+                </div>
+                
+            </div>
+                
+                
+                
+            <div class="row  section--hero-content  small-collapse">
+                
+        
+                <div class="small-12 medium-6  large-5 large-push-1 end  columns  mt5">
+                    
+                    <h1 class="text--mega uc  fwb  txtc3  lhb  mt5" >{customContent.headline}</h1>
+                    
+                    <a href='{customContent.link}' class='button button--secondary medium'>{customContent.action}</a>
+        
+                </div>
+        
+            </div>
+        
+        </header>
+    </div>
+    

@@ -1,0 +1,17 @@
+
+/*------------------------------------*\
+    #Panels
+\*------------------------------------*/
+
+%panel {
+  background-color: #fff;  
+  border: 1px solid $grey--mid; 
+  @extend %mt1; 
+  @extend %ptrbl2; 
+
+  .panel-title {
+      @extend %fwb;
+      @extend %h4; 
+      @extend %mb0;  
+  }
+}

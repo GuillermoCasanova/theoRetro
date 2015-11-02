@@ -1,0 +1,133 @@
+
+<!--<div id="flowThumbnail">
+    {.section items}
+        {.section 0}
+            {.image?}
+                <img {@|image-meta} data-load="false" />
+            {.end}
+            {.video?}
+                {@|video}
+            {.end}
+        {.end}
+    {.end}
+</div>-->
+
+
+
+<!--<div id="flowItems">
+    <div id="flowScrollPrompt"></div>
+    {.repeated section items}
+        <article class="flow-item"/>
+            {.image?}
+                <img {@|image-meta}/>
+            {.end}
+        </article>
+    {.end}
+</div>-->
+
+
+<!--{.section body}
+    <div id="flowBody">
+        <a href="#" id="flowBodyClose"></a>
+        <div class="wrapper">
+            <h1>Additional Info</h1>
+            {@}
+        </div>
+    </div>
+{.end}-->
+
+
+
+     <!-- Single Item View--> 
+      <section> 
+      
+      {.section item}
+
+
+
+<div class='section--highlighted'>
+		
+	<div class='row'>
+	
+		<div class='small-12 columns'>
+		
+				<ul class='list--inline  h6  mt3  pl3  fwb uc'>
+				
+					<li> <a href="{collection.fullUrl}" class="flow-back">{collection.title}</a> > </li>
+					
+					<li> {title} </li>
+				
+				
+				</ul>
+				 
+		</div>
+	
+	</div>
+
+</div>
+	
+
+<div class='row'>
+
+		<div class='small-12 large-11  large-push-1  columns'>
+		
+				
+			
+			<div class='section'>
+
+				<div class="row"> 
+  			
+		  			<!-- Product Image-->
+		  			<div class='small-12 medium-7  medium-push-4  large-6  large-push-4 columns  pt4  pb5  '>
+		  					
+		  		
+		  				<img src="{assetUrl}"class="image--responsive">
+		  		
+		  		
+		  			</div>	
+		  			
+		  			
+		  			<!-- Product Information--> 
+		  			<div class="small-12  medium-3   medium-pull-9  columns">
+		  		
+  								
+  						<div class='row  small-text-center medium-text-left'>
+
+  		
+  		
+  							<div class='small-12 columns'>
+  		
+  								 {@|product-status}{.if title}
+  								 	<h1 class='mb2'>
+	  								{title}
+  									</h1>
+  								 {.end}
+  								
+  								<h2> {@|product-price}</h2>
+  								
+  								
+  								 {@|product-checkout}
+  								 
+  								<p>
+  								
+  										{.excerpt?}{excerpt}{.end}
+  									
+  										{.if body}<a href="#" id="flowBodyOpen"></a>{.end}
+  								</p>	
+  								
+  							</div>			  			
+  						
+  						</div>
+		  		   	
+		  			</div>
+						  			
+				</div>
+				
+			</div>
+				
+		</div>	
+	
+	</div>
+	
+</section>
+{.end}

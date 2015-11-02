@@ -1,0 +1,41 @@
+
+
+<div class="section">
+
+    <div class="row">
+
+        <div class="small-12 medium-10 medium-push-1 colmns">
+            
+                <div class="row">
+                    
+                    <div class="small-12 columns">
+                        
+                        <h1 class="txtc3  fwb  uc">Collections</h1>
+                
+                    </div>
+                
+                
+                    <div class="small-12 columns">
+                        
+                
+                        <ul>
+                
+                            {.repeated section items}
+                            
+                            <li class="h3">
+                                
+                               <a href="{urlId}"> {customContent.headline}</a>
+                
+                            </li>
+                            {.end}
+                
+                        </ul>
+                
+                    </div>    
+                
+                </div>
+        </div>
+        
+    </div>
+
+</div>

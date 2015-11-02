@@ -1,0 +1,22 @@
+
+/*------------------------------------*\
+    #Photos
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+    #Mixin for creating circle photos
+\*------------------------------------*/
+
+
+@mixin image--circle($dimensions) {
+  @include border-radius(100%);
+  overflow: hidden; 
+  width: $dimensions;
+  height: $dimensions; 
+}
+
+
+
+

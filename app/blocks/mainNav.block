@@ -1,0 +1,97 @@
+
+
+<!-- Main Nav for small--> 
+<nav class="mainNav  mainNav--small  hide-for-large-up"  
+     data-ui-component="small-navigation"
+     data-action="toggle-top-bar">
+
+    <ul class="ml0 pl2 mainNav-controls">
+
+        <li class="mainNav-logo">
+
+            <img src="/assets/logo--theoRetro.svg" alt="" width="40px" >
+
+        </li>
+
+        <li data-action="toggle-main-nav"  title="Toggle Menu" class="mainNav-menuIcon">
+
+          <div class="icon  icon--menu  icon--medium vertical-align">
+            
+          </div>
+
+        </li>
+
+
+    </ul>
+
+    <div class='mainNav-menu'>
+    
+    	<div class='menu-close  icon--cancel  icon--medium' 
+            data-action="toggle-main-nav">
+
+                X 
+    	</div>
+
+        <ul class="[ pt5  mt2 ]">
+                   
+		    {.repeated section items}
+		    <li class="menu-item  pb3  pl3 {.section active} active-link{.end}">
+		
+		      {.section collection}
+		        <a class="menu-link  h1" href="{fullUrl}">{navigationTitle}</a>
+		      {.end}
+		
+		      {.section externalLink}
+		        <a class='menu-link  h1' href="{url}"{.section newWindow} target="_blank"{.end}>{title}</a>
+		      {.end}
+		
+		    </li>
+		    {.end}
+
+        </ul>
+
+    </div>
+
+</nav> 
+
+
+<!-- Large Side Navigation--> 
+<nav class="large-2  columns  show-for-large-up  [ mainNav  mainNav--large  ]  vh100" 
+	 data-ui-component="large-navigation">
+	
+	
+			 <ul class="  mt5  pl4">
+
+			 	<li class="pb4 pl2">
+			 			<a href='http://www.theoretro.com/'>
+			 				<img src="/assets/logo--theoRetro.svg" alt="" width="120px"  class="mb4">
+			 			</a>
+			 		
+			 	</li>
+			 	
+			 </ul>
+			 
+			 <ul class="mt3  pl4  text-right">
+		
+			
+		{.repeated section items}
+			<li class="mainNav-item  pb2 pl2  {.section active} active-link{.end}">
+		
+			  {.section collection}
+				<a class="mainNav-link fwb h4" href="{fullUrl}">{navigationTitle}</a>
+			  {.end}
+		
+			  {.section externalLink}
+				<a class='mainNav-link  fwb  h4' href="{url}"{.section newWindow} target="_blank"{.end}>{title}</a>
+			  {.end}
+		
+			</li>
+			{.end}
+			
+		
+			</ul>
+	
+	
+	
+	
+</nav>

@@ -1,0 +1,35 @@
+
+/*------------------------------------*\
+    #Theme Styles 
+\*------------------------------------*/
+
+
+
+.ui-guide {
+
+    .brandColor--primaryColor {
+        background-color: $primaryColor;
+    }
+
+    .brandColor--primaryColor--dark {
+        background-color: $primaryColor--dark; 
+    }
+
+    .brandColor--secondaryColor {
+        background-color: $secondaryColor; 
+    }
+
+    .brandColor--accentColor {
+        background-color: $accentColor; 
+    }
+
+    .brandColor--grey {
+        background-color: $grey--dark; 
+    }
+
+    [class*='brandColor--'] {
+        
+        color: #fff; 
+    }
+
+}

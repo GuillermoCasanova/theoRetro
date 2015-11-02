@@ -1,0 +1,29 @@
+/* all app scss styles here */
+
+@import "compass/css3";
+@import "compass/utilities";
+@import "modules/all";
+@import "partials/base"; 
+
+// Partials
+@import 
+"partials/animations",
+"partials/buttons",
+"partials/components",
+"partials/flexVideo",
+"partials/flexbox",
+'foundation/components/flex-video',
+"partials/footer",
+"partials/forms",
+"partials/generics",
+"partials/grids",
+"partials/icons",
+"partials/lists",
+"partials/logos",
+"partials/navs",
+"partials/panels",
+"partials/photos",
+"partials/sections",
+"partials/slideshows",
+"partials/thumbnails",
+"partials/typography";

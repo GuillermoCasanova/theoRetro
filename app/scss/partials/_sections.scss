@@ -1,0 +1,144 @@
+
+/*------------------------------------*\
+    #Sections
+\*------------------------------------*/
+
+
+.section {
+    background-color: #f6f7f2; 
+    @include box-sizing(border-box);
+    @extend %position--relative; 
+    @extend %ptb5; 
+}
+
+
+
+/*------------------------------------*\
+    #Section Types 
+\*------------------------------------*/
+
+
+.section--alt {
+
+    overflow: hidden;
+    width: 100%; 
+
+        
+    & > .row { 
+      @extend %position--relative; 
+    }
+
+    .section-title {
+        color: #fff; 
+    }
+
+    .section-text {
+        color: #fff; 
+    }
+
+    .section-text--highlight {
+        color: $accentColor;
+    }
+    
+     .section-bg {
+        min-width: rem-calc(800);
+        top: 0; 
+        left:0; 
+        right: 0; 
+        bottom: 0; 
+        width: 100%;
+        opacity: .5; 
+        @extend %position--absolute; 
+
+        @include breakpoint(mobileOnly) {
+            margin-left: -50%; 
+        }
+
+        @media #{$medium-up} {
+            min-width: rem-calc(960);
+        }
+
+        @media #{$large-up} {
+            min-width: rem-calc(1280);
+        }
+
+        &.alt {
+
+            opacity: .8; 
+        }
+
+    }
+
+}
+
+
+.section--primary {
+    background-color: $primaryColor; 
+
+    .section-text {
+        color: #fff; 
+    }
+
+}
+
+
+.section--secondary {
+    background-color: $secondaryColor; 
+
+    .section-text {
+        color: $secondaryColor--dark; 
+    }
+}
+
+
+.section--tertriary {
+
+    background-color: $offBlack;
+
+    .section-text {
+
+        color: #F6F7F2; 
+    }
+
+}
+
+
+.section--highlighted { 
+    background-color: #F5F5F5; 
+    
+}
+
+
+
+
+/*------------------------------------*\
+    #Section Properties 
+\*------------------------------------*/
+
+
+.section--pinned {
+    width: 100% !important; 
+    height: 100vh; 
+    z-index: 0; 
+}
+
+.section--pinnedCovered {
+  z-index: 2; 
+}
+
+.section--hero {
+    @extend %position--relative; 
+    @extend %vh100; 
+
+    .section--hero-content {
+    
+        @media #{$medium-up} {
+            
+          position: relative;
+          top: 50%;
+          @include transform(translateY(-50%));
+
+        }
+
+    }
+}

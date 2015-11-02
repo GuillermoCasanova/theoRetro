@@ -1,0 +1,246 @@
+
+/*------------------------------------*\
+    #Components
+\*------------------------------------*/
+
+
+
+
+
+/*------------------------------------*\
+    #Profile Bios
+\*------------------------------------*/
+
+
+.profile {
+    overflow: hidden;
+    @include single-transition(all, .3s, ease-in-out); 
+    @extend %position--relative; 
+
+    .profile-bio {
+        @include transform(translateX(100%)); 
+        background-color: rgba(60, 71, 80, 0.9); 
+        color: #fff; 
+        bottom: 0px; 
+        top: 0px; 
+        left: 0; 
+        right: 0; 
+        width: 100%;
+        text-align: left; 
+        @include single-transition(all, .3s, ease-in-out);
+        @extend %position--absolute;  
+        @extend %ptrbl3; 
+
+        //Hides it with pixels on larger formats, since it needs 111% on smaller devices 
+        @media #{$medium-up} {
+            @include transform(translateX(100%)); 
+        }
+    }  
+
+    .profile-bio-open {
+        bottom: 0px;
+        top: rem-calc(10px);
+        right: 0;
+        left: -40px;
+        background-color: rgba(60, 71, 80, 0.9); 
+        height: 40px;
+        width: 40px;
+        cursor: pointer; 
+        @extend %position--absolute;
+        
+
+        &:hover {
+            
+            .icon {
+                opacity: 1; 
+            }
+        }
+
+        .icon {
+            top: rem-calc(5px); 
+            left: rem-calc(10px); 
+            opacity: .7; 
+            @include single-transition(all, .3s, ease-in-out); 
+            @extend %position--absolute; 
+
+        }
+    } 
+
+    .profile-bio-close {
+        right: rem-calc(5px); 
+        top: 0; 
+        height: rem-calc(40px);
+        width: rem-calc(40px);
+        opacity: .7; 
+        @extend %position--absolute; 
+
+        .icon {
+            top: rem-calc(5px); 
+            right: rem-calc(10px); 
+            opacity: .7; 
+            @include single-transition(all, .3s, ease-in-out); 
+            
+            &:hover {
+                opacity: 1; 
+            }
+        }
+
+    }
+}
+
+
+.profile-bio {
+
+    .title {
+        color: #fff; 
+    }
+
+    .body {
+        color: #fff; 
+        @extend %mt2; 
+        @extend %h7; 
+    }
+
+}
+
+.profile.is-showing {
+
+    .profile-bio {
+        @include transform(translateX(0px)); 
+    }
+
+}
+
+
+
+
+
+
+
+/*------------------------------------*\
+    #Contact Info Container 
+\*------------------------------------*/
+
+// TODO: Abstract this functionality into a component with classes 
+[data-ui-component*="contact-info"] {
+    z-index: 2; 
+    @include single-transition(all, .6s, ease-in-out); 
+    @include transform(translateY(0)); 
+
+
+    &.is-hidden {
+        z-index: 0; 
+        opacity: 0; 
+        @include transform(translateY(140%)); 
+    }
+
+}
+
+
+
+
+
+/*------------------------------------*\
+    #Contact Form States (It's used when a message is sent) 
+\*------------------------------------*/
+
+
+[data-ui-component*="contact-form"] {
+
+    &.is-hidden {
+
+        opacity: 0; 
+        display: none; 
+
+    }
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    #Instagram Stream 
+\*------------------------------------*/
+
+
+.instaStream-photo {
+		
+	img {
+		width:  100%;
+		@include border-radius(100%); 
+	}
+	
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    #Countdown 
+\*------------------------------------*/
+/*
+
+.position{
+    display: inline-block;
+    height: 1.6em;
+    overflow: hidden;
+    position: relative;
+    width: 1.05em;
+}
+
+.digit{
+    position:absolute;
+    display:block;
+    width:1em;
+    background-color: $secondaryColor;
+    text-align:center;
+    color:#fff;
+    letter-spacing:-1px;
+}
+
+.digit.static{
+    
+}
+
+/**
+ * You can use these classes to hide parts
+ * of the countdown that you don't need.
+ *!/
+
+.countDays{ /* display:none !important;*!/ }
+.countDiv0{ /* display:none !important;*!/ }
+.countHours{}
+.countDiv1{}
+.countMinutes{}
+.countDiv2{}
+.countSeconds{}
+
+
+.countDiv{
+    @extend %display--inlineBlock; 
+    width:16px;
+    height:1.6em;
+    position:relative;
+}
+
+.countDiv:before,
+.countDiv:after{
+    position:absolute;
+    width:5px;
+    height:5px;
+    background-color:#000;
+    border-radius:50%;
+    left:50%;
+    margin-left:-3px;
+    top:0.5em;
+    box-shadow:1px 1px 1px rgba(4, 4, 4, 0.5);
+    content:'';
+}
+
+.countDiv:after{
+    top:0.9em;
+}*/

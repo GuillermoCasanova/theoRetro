@@ -1,0 +1,93 @@
+
+
+<!-- Artist Wrapper Coes from roster.list -->
+<div class='section--tertriary'>
+	
+	<ul class="row  small-collapse  vh100">
+		
+	<!--				<li class='small-12 medium-4 columns  text-center'>
+	
+			<img src='/assets/logo--retroNeon.png' alt='' width="300px"  class="pt5  mt5  center"  class="image--responsive" />
+			
+			
+		</li>-->
+	
+		<!-- Artist Wrapper -->
+		
+		{.repeated section items}
+	
+		<li class="small-12  medium-6  large-4 columns   end">
+			
+		
+			<div class="thumbnail  thumbnail1  thumbnail--wide">
+				
+				
+				<!-- Artist Image--> 
+				<div class="thumbnail-image">
+					
+					{.main-image?}  
+						<img src='{assetUrl}' {@|image-meta} />
+				
+					{.end}
+				
+				</div>
+				
+				
+				<div class='thumbnail-description  text-center pl2'>
+					
+					
+					<!-- Artist Name--> 
+					<div class='thumbnail-title pt3'>
+					
+						<h1 class="uc  mb2  fwb  txtc3">{customContent.artistName}</h1>	
+														 
+					</div>
+					
+					<div class='thumbnail-subText  pb3'>
+					
+						<ul class="list--inline  mb0">
+						      
+                            {.if customContent.artistSoundcloud}
+    							<li >
+                                    <a target="_blank"  href="{customContent.artistSoundcloud}" class='icon--soundcloud  icon--large  txtc3' >
+                                        
+                                    </a>
+                                </li>
+                            {.end}
+                            
+                            {.if customContent.artistFacebook}
+                                <li >
+                                    <a target="_blank"  href="{customContent.artistFacebook}" class='icon--facebook  icon--large  txtc3' >
+                                        
+                                    </a>
+                                </li>
+                            {.end}
+
+                            {.if customContent.artistTwitter}
+                                <li >
+                                    <a target="_blank"  href="{customContent.artistTwitter}" class='icon--twitter  icon--large  txtc3' >
+                                        
+                                    </a>
+                                </li>
+                            {.end}
+
+						</ul>
+						
+					</div>
+					 
+				</div>
+				
+			</div>			  
+		
+		</li>   
+		
+		
+	
+	
+	{.end}
+	
+	</ul>
+</div>
+
+
+

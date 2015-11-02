@@ -1,0 +1,24 @@
+{
+  "name": "SoriaLLC_website",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "gsap": "~1.17.0",
+    "ScrollMagic": "~2.0.5",
+    "jquery.lazyload": "~1.9.5",
+    "jquery": "~2.1.4"
+  },
+  "overrides": {
+    "ScrollMagic": {
+      "main": [
+        "scrollmagic/uncompressed/ScrollMagic.js",
+        "scrollmagic/uncompressed/plugins/animation.gsap.js"
+      ]
+    },
+    "gsap": {
+      "main": [
+        "src/uncompressed/TweenMax.js",
+        "src/uncompressed/plugins/ScrollToPlugin.js"
+      ]
+    }
+  }
+}

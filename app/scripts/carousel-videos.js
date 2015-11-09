@@ -1,6 +1,6 @@
 
  $('[data-ui-component="carousel-featured-news"]').slick({
-    autoplay: false,
+    autoplay: true,
     arrows: true,
     draggable: false,  
     dots: false, 

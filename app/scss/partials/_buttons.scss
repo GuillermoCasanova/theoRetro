@@ -12,7 +12,7 @@ button {
 
 .button--primary {
 
-  @include button--outline($secondaryColor); 
+  @include button--outline($primaryColor); 
 
 }
 

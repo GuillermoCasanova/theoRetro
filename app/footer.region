@@ -97,7 +97,7 @@
     
   <!--   <script src="https://ted-massena-wev7.squarespace.com/"></script>
  -->
-    <!-- build:js scripts/vendor/libraries.min.js -->
+    <!-- build:js /scripts/vendor/libraries.min.js -->
     <!-- bower:js -->
     <script src="/scripts/bower_components/jquery/dist/jquery.js"></script>
     <script src="/scripts/bower_components/fastclick/lib/fastclick.js"></script>
@@ -118,7 +118,7 @@
     <!-- endbuild -->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
     
-    <!-- build:js scripts/app.min.js -->
+    <!-- build:js /scripts/app.min.js -->
     <script src="/scripts/app.js"></script>
     <script src="/scripts/main-nav.js"></script>
     <script src="/scripts/carousel-videos.js"></script>

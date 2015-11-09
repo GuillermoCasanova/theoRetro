@@ -4343,19 +4343,11 @@ h6,
 /* line 114, ../scss/modules/_typography.scss */
 .slideshow1 .slick-next:before,
 .slideshow1 .slick-prev:before, .text--mega {
-  font-size: 3rem;
+  font-size: 6rem;
   line-height: 1;
 }
-@media only screen and (min-width: 40.0625em) {
-  /* line 114, ../scss/modules/_typography.scss */
-  .slideshow1 .slick-next:before,
-  .slideshow1 .slick-prev:before, .text--mega {
-    font-size: 5rem;
-    line-height: 1;
-  }
-}
 
-/* line 126, ../scss/modules/_typography.scss */
+/* line 121, ../scss/modules/_typography.scss */
 button.tiny,
 .button.tiny, .text--micro {
   font-size: 0.75rem;
@@ -4365,7 +4357,7 @@ button.tiny,
 /*------------------------------------*\
     #Text Colors 
 \*------------------------------------*/
-/* line 141, ../scss/modules/_typography.scss */
+/* line 136, ../scss/modules/_typography.scss */
 footer, footer .footer-title, footer .footer-link:hover, .slideshow--news .slideshow-slide .slideshow-slide-title, .slideshow--news .slideshow-slide h1.slideshow-slide-title-text {
   color: #fff;
 }
@@ -4373,12 +4365,12 @@ footer, footer .footer-title, footer .footer-link:hover, .slideshow--news .slide
 /*------------------------------------*\
     #Text Alignments  
 \*------------------------------------*/
-/* line 157, ../scss/modules/_typography.scss */
+/* line 152, ../scss/modules/_typography.scss */
 .mainNav--small .mainNav-menu, .panel-body {
   text-align: center;
 }
 
-/* line 158, ../scss/modules/_typography.scss */
+/* line 153, ../scss/modules/_typography.scss */
 footer {
   text-align: left;
 }
@@ -4395,19 +4387,19 @@ footer {
 /*------------------------------------*\
     #Text Colors  
 \*------------------------------------*/
-/* line 251, ../scss/modules/_typography.scss */
+/* line 246, ../scss/modules/_typography.scss */
 .mainNav .mainNav-link, .mainNav--small .mainNav-menuIcon, .mainNav--small .mainNav-menu .menu-link, .mainNav--small .mainNav-menu .menu-close, .mainNav--large .mainNav-link, .txtc2 {
   color: #67f2b5;
   text-shadow: 0 1px 0 #2d684c, 0 1px 0 #2d684c, 0 2px 0 #2d684c, 0 3px 0 #2d684c, 0 2px 0 #2d684c, 0 4px 1px rgba(45, 104, 75, 0.1), 0 0 5px rgba(45, 104, 75, 0.1), 0 1px 3px rgba(45, 104, 75, 0.3), 0 3px 5px rgba(45, 104, 75, 0.2), 0 5px 10px rgba(45, 104, 75, 0.25), 0 10px 10px rgba(45, 104, 75, 0.2), 0 20px 20px rgba(45, 104, 75, 0.15);
 }
 
-/* line 268, ../scss/modules/_typography.scss */
+/* line 263, ../scss/modules/_typography.scss */
 .txtc3 {
   color: #f1a0f2;
   text-shadow: 0 1px 0 #7F5580, 0 1px 0 #7F5580, 0 2px 0 #7F5580, 0 3px 0 #7F5580, 0 2px 0 #7F5580, 0 4px 1px rgba(127, 85, 128, 0.1), 0 0 5px rgba(127, 85, 128, 0.1), 0 1px 3px rgba(127, 85, 128, 0.3), 0 3px 5px rgba(127, 85, 128, 0.2), 0 5px 10px rgba(127, 85, 128, 0.25), 0 10px 10px rgba(127, 85, 128, 0.2), 0 20px 20px rgba(127, 85, 128, 0.15);
 }
 
-/* line 288, ../scss/modules/_typography.scss */
+/* line 283, ../scss/modules/_typography.scss */
 .txtc4 {
   color: #FDEE3A;
   text-shadow: 0 1px 0 #6a6201, 0 2px 0 #6a6201, 0 3px 0 #6a6201, 0 4px 0 #6a6201, 0 5px 0 #6a6201, 0 6px 1px rgba(45, 104, 75, 0.1), 0 0 5px rgba(45, 104, 75, 0.1), 0 1px 3px rgba(45, 104, 75, 0.3), 0 3px 5px rgba(45, 104, 75, 0.2), 0 5px 10px rgba(45, 104, 75, 0.25), 0 10px 10px rgba(45, 104, 75, 0.2), 0 20px 20px rgba(45, 104, 75, 0.15);
@@ -5191,8 +5183,8 @@ ul {
 /* line 13, ../scss/partials/_buttons.scss */
 .button--primary {
   background-color: transparent;
-  color: #f1a0f2;
-  border: 2px solid #f1a0f2;
+  color: #67f2b5;
+  border: 2px solid #67f2b5;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -5204,7 +5196,7 @@ ul {
 /* line 102, ../scss/modules/_buttons.scss */
 .button--primary:hover, .button--primary:focus, .button--primary:active {
   color: #fff;
-  background-color: #f1a0f2;
+  background-color: #67f2b5;
 }
 
 /* line 19, ../scss/partials/_buttons.scss */
@@ -7461,6 +7453,3619 @@ a,
 /* line 237, ../scss/partials/_typography.scss */
 .hr1 {
   width: 30%;
+}
+
+@media screen and (min-width: 600px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100%;
+  }
+}
+@media screen and (min-width: 601px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.02083%;
+  }
+}
+@media screen and (min-width: 602px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.04167%;
+  }
+}
+@media screen and (min-width: 603px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.0625%;
+  }
+}
+@media screen and (min-width: 604px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.08333%;
+  }
+}
+@media screen and (min-width: 605px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.10417%;
+  }
+}
+@media screen and (min-width: 606px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.125%;
+  }
+}
+@media screen and (min-width: 607px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.14583%;
+  }
+}
+@media screen and (min-width: 608px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.16667%;
+  }
+}
+@media screen and (min-width: 609px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.1875%;
+  }
+}
+@media screen and (min-width: 610px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.20833%;
+  }
+}
+@media screen and (min-width: 611px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.22917%;
+  }
+}
+@media screen and (min-width: 612px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.25%;
+  }
+}
+@media screen and (min-width: 613px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.27083%;
+  }
+}
+@media screen and (min-width: 614px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.29167%;
+  }
+}
+@media screen and (min-width: 615px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.3125%;
+  }
+}
+@media screen and (min-width: 616px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.33333%;
+  }
+}
+@media screen and (min-width: 617px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.35417%;
+  }
+}
+@media screen and (min-width: 618px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.375%;
+  }
+}
+@media screen and (min-width: 619px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.39583%;
+  }
+}
+@media screen and (min-width: 620px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.41667%;
+  }
+}
+@media screen and (min-width: 621px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.4375%;
+  }
+}
+@media screen and (min-width: 622px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.45833%;
+  }
+}
+@media screen and (min-width: 623px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.47917%;
+  }
+}
+@media screen and (min-width: 624px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.5%;
+  }
+}
+@media screen and (min-width: 625px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.52083%;
+  }
+}
+@media screen and (min-width: 626px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.54167%;
+  }
+}
+@media screen and (min-width: 627px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.5625%;
+  }
+}
+@media screen and (min-width: 628px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.58333%;
+  }
+}
+@media screen and (min-width: 629px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.60417%;
+  }
+}
+@media screen and (min-width: 630px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.625%;
+  }
+}
+@media screen and (min-width: 631px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.64583%;
+  }
+}
+@media screen and (min-width: 632px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.66667%;
+  }
+}
+@media screen and (min-width: 633px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.6875%;
+  }
+}
+@media screen and (min-width: 634px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.70833%;
+  }
+}
+@media screen and (min-width: 635px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.72917%;
+  }
+}
+@media screen and (min-width: 636px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.75%;
+  }
+}
+@media screen and (min-width: 637px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.77083%;
+  }
+}
+@media screen and (min-width: 638px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.79167%;
+  }
+}
+@media screen and (min-width: 639px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.8125%;
+  }
+}
+@media screen and (min-width: 640px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.83333%;
+  }
+}
+@media screen and (min-width: 641px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.85417%;
+  }
+}
+@media screen and (min-width: 642px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.875%;
+  }
+}
+@media screen and (min-width: 643px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.89583%;
+  }
+}
+@media screen and (min-width: 644px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.91667%;
+  }
+}
+@media screen and (min-width: 645px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.9375%;
+  }
+}
+@media screen and (min-width: 646px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.95833%;
+  }
+}
+@media screen and (min-width: 647px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100.97917%;
+  }
+}
+@media screen and (min-width: 648px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101%;
+  }
+}
+@media screen and (min-width: 649px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.02083%;
+  }
+}
+@media screen and (min-width: 650px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.04167%;
+  }
+}
+@media screen and (min-width: 651px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.0625%;
+  }
+}
+@media screen and (min-width: 652px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.08333%;
+  }
+}
+@media screen and (min-width: 653px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.10417%;
+  }
+}
+@media screen and (min-width: 654px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.125%;
+  }
+}
+@media screen and (min-width: 655px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.14583%;
+  }
+}
+@media screen and (min-width: 656px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.16667%;
+  }
+}
+@media screen and (min-width: 657px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.1875%;
+  }
+}
+@media screen and (min-width: 658px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.20833%;
+  }
+}
+@media screen and (min-width: 659px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.22917%;
+  }
+}
+@media screen and (min-width: 660px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.25%;
+  }
+}
+@media screen and (min-width: 661px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.27083%;
+  }
+}
+@media screen and (min-width: 662px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.29167%;
+  }
+}
+@media screen and (min-width: 663px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.3125%;
+  }
+}
+@media screen and (min-width: 664px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.33333%;
+  }
+}
+@media screen and (min-width: 665px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.35417%;
+  }
+}
+@media screen and (min-width: 666px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.375%;
+  }
+}
+@media screen and (min-width: 667px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.39583%;
+  }
+}
+@media screen and (min-width: 668px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.41667%;
+  }
+}
+@media screen and (min-width: 669px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.4375%;
+  }
+}
+@media screen and (min-width: 670px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.45833%;
+  }
+}
+@media screen and (min-width: 671px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.47917%;
+  }
+}
+@media screen and (min-width: 672px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.5%;
+  }
+}
+@media screen and (min-width: 673px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.52083%;
+  }
+}
+@media screen and (min-width: 674px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.54167%;
+  }
+}
+@media screen and (min-width: 675px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.5625%;
+  }
+}
+@media screen and (min-width: 676px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.58333%;
+  }
+}
+@media screen and (min-width: 677px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.60417%;
+  }
+}
+@media screen and (min-width: 678px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.625%;
+  }
+}
+@media screen and (min-width: 679px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.64583%;
+  }
+}
+@media screen and (min-width: 680px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.66667%;
+  }
+}
+@media screen and (min-width: 681px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.6875%;
+  }
+}
+@media screen and (min-width: 682px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.70833%;
+  }
+}
+@media screen and (min-width: 683px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.72917%;
+  }
+}
+@media screen and (min-width: 684px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.75%;
+  }
+}
+@media screen and (min-width: 685px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.77083%;
+  }
+}
+@media screen and (min-width: 686px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.79167%;
+  }
+}
+@media screen and (min-width: 687px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.8125%;
+  }
+}
+@media screen and (min-width: 688px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.83333%;
+  }
+}
+@media screen and (min-width: 689px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.85417%;
+  }
+}
+@media screen and (min-width: 690px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.875%;
+  }
+}
+@media screen and (min-width: 691px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.89583%;
+  }
+}
+@media screen and (min-width: 692px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.91667%;
+  }
+}
+@media screen and (min-width: 693px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.9375%;
+  }
+}
+@media screen and (min-width: 694px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.95833%;
+  }
+}
+@media screen and (min-width: 695px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 101.97917%;
+  }
+}
+@media screen and (min-width: 696px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102%;
+  }
+}
+@media screen and (min-width: 697px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.02083%;
+  }
+}
+@media screen and (min-width: 698px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.04167%;
+  }
+}
+@media screen and (min-width: 699px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.0625%;
+  }
+}
+@media screen and (min-width: 700px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.08333%;
+  }
+}
+@media screen and (min-width: 701px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.10417%;
+  }
+}
+@media screen and (min-width: 702px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.125%;
+  }
+}
+@media screen and (min-width: 703px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.14583%;
+  }
+}
+@media screen and (min-width: 704px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.16667%;
+  }
+}
+@media screen and (min-width: 705px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.1875%;
+  }
+}
+@media screen and (min-width: 706px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.20833%;
+  }
+}
+@media screen and (min-width: 707px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.22917%;
+  }
+}
+@media screen and (min-width: 708px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.25%;
+  }
+}
+@media screen and (min-width: 709px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.27083%;
+  }
+}
+@media screen and (min-width: 710px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.29167%;
+  }
+}
+@media screen and (min-width: 711px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.3125%;
+  }
+}
+@media screen and (min-width: 712px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.33333%;
+  }
+}
+@media screen and (min-width: 713px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.35417%;
+  }
+}
+@media screen and (min-width: 714px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.375%;
+  }
+}
+@media screen and (min-width: 715px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.39583%;
+  }
+}
+@media screen and (min-width: 716px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.41667%;
+  }
+}
+@media screen and (min-width: 717px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.4375%;
+  }
+}
+@media screen and (min-width: 718px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.45833%;
+  }
+}
+@media screen and (min-width: 719px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.47917%;
+  }
+}
+@media screen and (min-width: 720px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.5%;
+  }
+}
+@media screen and (min-width: 721px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.52083%;
+  }
+}
+@media screen and (min-width: 722px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.54167%;
+  }
+}
+@media screen and (min-width: 723px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.5625%;
+  }
+}
+@media screen and (min-width: 724px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.58333%;
+  }
+}
+@media screen and (min-width: 725px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.60417%;
+  }
+}
+@media screen and (min-width: 726px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.625%;
+  }
+}
+@media screen and (min-width: 727px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.64583%;
+  }
+}
+@media screen and (min-width: 728px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.66667%;
+  }
+}
+@media screen and (min-width: 729px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.6875%;
+  }
+}
+@media screen and (min-width: 730px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.70833%;
+  }
+}
+@media screen and (min-width: 731px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.72917%;
+  }
+}
+@media screen and (min-width: 732px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.75%;
+  }
+}
+@media screen and (min-width: 733px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.77083%;
+  }
+}
+@media screen and (min-width: 734px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.79167%;
+  }
+}
+@media screen and (min-width: 735px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.8125%;
+  }
+}
+@media screen and (min-width: 736px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.83333%;
+  }
+}
+@media screen and (min-width: 737px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.85417%;
+  }
+}
+@media screen and (min-width: 738px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.875%;
+  }
+}
+@media screen and (min-width: 739px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.89583%;
+  }
+}
+@media screen and (min-width: 740px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.91667%;
+  }
+}
+@media screen and (min-width: 741px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.9375%;
+  }
+}
+@media screen and (min-width: 742px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.95833%;
+  }
+}
+@media screen and (min-width: 743px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 102.97917%;
+  }
+}
+@media screen and (min-width: 744px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103%;
+  }
+}
+@media screen and (min-width: 745px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.02083%;
+  }
+}
+@media screen and (min-width: 746px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.04167%;
+  }
+}
+@media screen and (min-width: 747px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.0625%;
+  }
+}
+@media screen and (min-width: 748px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.08333%;
+  }
+}
+@media screen and (min-width: 749px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.10417%;
+  }
+}
+@media screen and (min-width: 750px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.125%;
+  }
+}
+@media screen and (min-width: 751px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.14583%;
+  }
+}
+@media screen and (min-width: 752px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.16667%;
+  }
+}
+@media screen and (min-width: 753px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.1875%;
+  }
+}
+@media screen and (min-width: 754px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.20833%;
+  }
+}
+@media screen and (min-width: 755px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.22917%;
+  }
+}
+@media screen and (min-width: 756px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.25%;
+  }
+}
+@media screen and (min-width: 757px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.27083%;
+  }
+}
+@media screen and (min-width: 758px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.29167%;
+  }
+}
+@media screen and (min-width: 759px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.3125%;
+  }
+}
+@media screen and (min-width: 760px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.33333%;
+  }
+}
+@media screen and (min-width: 761px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.35417%;
+  }
+}
+@media screen and (min-width: 762px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.375%;
+  }
+}
+@media screen and (min-width: 763px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.39583%;
+  }
+}
+@media screen and (min-width: 764px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.41667%;
+  }
+}
+@media screen and (min-width: 765px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.4375%;
+  }
+}
+@media screen and (min-width: 766px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.45833%;
+  }
+}
+@media screen and (min-width: 767px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.47917%;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.5%;
+  }
+}
+@media screen and (min-width: 769px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.52083%;
+  }
+}
+@media screen and (min-width: 770px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.54167%;
+  }
+}
+@media screen and (min-width: 771px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.5625%;
+  }
+}
+@media screen and (min-width: 772px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.58333%;
+  }
+}
+@media screen and (min-width: 773px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.60417%;
+  }
+}
+@media screen and (min-width: 774px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.625%;
+  }
+}
+@media screen and (min-width: 775px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.64583%;
+  }
+}
+@media screen and (min-width: 776px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.66667%;
+  }
+}
+@media screen and (min-width: 777px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.6875%;
+  }
+}
+@media screen and (min-width: 778px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.70833%;
+  }
+}
+@media screen and (min-width: 779px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.72917%;
+  }
+}
+@media screen and (min-width: 780px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.75%;
+  }
+}
+@media screen and (min-width: 781px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.77083%;
+  }
+}
+@media screen and (min-width: 782px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.79167%;
+  }
+}
+@media screen and (min-width: 783px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.8125%;
+  }
+}
+@media screen and (min-width: 784px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.83333%;
+  }
+}
+@media screen and (min-width: 785px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.85417%;
+  }
+}
+@media screen and (min-width: 786px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.875%;
+  }
+}
+@media screen and (min-width: 787px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.89583%;
+  }
+}
+@media screen and (min-width: 788px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.91667%;
+  }
+}
+@media screen and (min-width: 789px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.9375%;
+  }
+}
+@media screen and (min-width: 790px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.95833%;
+  }
+}
+@media screen and (min-width: 791px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 103.97917%;
+  }
+}
+@media screen and (min-width: 792px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104%;
+  }
+}
+@media screen and (min-width: 793px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.02083%;
+  }
+}
+@media screen and (min-width: 794px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.04167%;
+  }
+}
+@media screen and (min-width: 795px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.0625%;
+  }
+}
+@media screen and (min-width: 796px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.08333%;
+  }
+}
+@media screen and (min-width: 797px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.10417%;
+  }
+}
+@media screen and (min-width: 798px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.125%;
+  }
+}
+@media screen and (min-width: 799px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.14583%;
+  }
+}
+@media screen and (min-width: 800px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.16667%;
+  }
+}
+@media screen and (min-width: 801px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.1875%;
+  }
+}
+@media screen and (min-width: 802px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.20833%;
+  }
+}
+@media screen and (min-width: 803px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.22917%;
+  }
+}
+@media screen and (min-width: 804px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.25%;
+  }
+}
+@media screen and (min-width: 805px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.27083%;
+  }
+}
+@media screen and (min-width: 806px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.29167%;
+  }
+}
+@media screen and (min-width: 807px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.3125%;
+  }
+}
+@media screen and (min-width: 808px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.33333%;
+  }
+}
+@media screen and (min-width: 809px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.35417%;
+  }
+}
+@media screen and (min-width: 810px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.375%;
+  }
+}
+@media screen and (min-width: 811px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.39583%;
+  }
+}
+@media screen and (min-width: 812px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.41667%;
+  }
+}
+@media screen and (min-width: 813px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.4375%;
+  }
+}
+@media screen and (min-width: 814px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.45833%;
+  }
+}
+@media screen and (min-width: 815px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.47917%;
+  }
+}
+@media screen and (min-width: 816px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.5%;
+  }
+}
+@media screen and (min-width: 817px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.52083%;
+  }
+}
+@media screen and (min-width: 818px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.54167%;
+  }
+}
+@media screen and (min-width: 819px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.5625%;
+  }
+}
+@media screen and (min-width: 820px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.58333%;
+  }
+}
+@media screen and (min-width: 821px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.60417%;
+  }
+}
+@media screen and (min-width: 822px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.625%;
+  }
+}
+@media screen and (min-width: 823px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.64583%;
+  }
+}
+@media screen and (min-width: 824px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.66667%;
+  }
+}
+@media screen and (min-width: 825px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.6875%;
+  }
+}
+@media screen and (min-width: 826px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.70833%;
+  }
+}
+@media screen and (min-width: 827px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.72917%;
+  }
+}
+@media screen and (min-width: 828px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.75%;
+  }
+}
+@media screen and (min-width: 829px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.77083%;
+  }
+}
+@media screen and (min-width: 830px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.79167%;
+  }
+}
+@media screen and (min-width: 831px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.8125%;
+  }
+}
+@media screen and (min-width: 832px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.83333%;
+  }
+}
+@media screen and (min-width: 833px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.85417%;
+  }
+}
+@media screen and (min-width: 834px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.875%;
+  }
+}
+@media screen and (min-width: 835px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.89583%;
+  }
+}
+@media screen and (min-width: 836px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.91667%;
+  }
+}
+@media screen and (min-width: 837px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.9375%;
+  }
+}
+@media screen and (min-width: 838px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.95833%;
+  }
+}
+@media screen and (min-width: 839px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 104.97917%;
+  }
+}
+@media screen and (min-width: 840px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105%;
+  }
+}
+@media screen and (min-width: 841px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.02083%;
+  }
+}
+@media screen and (min-width: 842px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.04167%;
+  }
+}
+@media screen and (min-width: 843px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.0625%;
+  }
+}
+@media screen and (min-width: 844px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.08333%;
+  }
+}
+@media screen and (min-width: 845px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.10417%;
+  }
+}
+@media screen and (min-width: 846px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.125%;
+  }
+}
+@media screen and (min-width: 847px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.14583%;
+  }
+}
+@media screen and (min-width: 848px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.16667%;
+  }
+}
+@media screen and (min-width: 849px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.1875%;
+  }
+}
+@media screen and (min-width: 850px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.20833%;
+  }
+}
+@media screen and (min-width: 851px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.22917%;
+  }
+}
+@media screen and (min-width: 852px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.25%;
+  }
+}
+@media screen and (min-width: 853px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.27083%;
+  }
+}
+@media screen and (min-width: 854px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.29167%;
+  }
+}
+@media screen and (min-width: 855px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.3125%;
+  }
+}
+@media screen and (min-width: 856px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.33333%;
+  }
+}
+@media screen and (min-width: 857px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.35417%;
+  }
+}
+@media screen and (min-width: 858px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.375%;
+  }
+}
+@media screen and (min-width: 859px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.39583%;
+  }
+}
+@media screen and (min-width: 860px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.41667%;
+  }
+}
+@media screen and (min-width: 861px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.4375%;
+  }
+}
+@media screen and (min-width: 862px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.45833%;
+  }
+}
+@media screen and (min-width: 863px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.47917%;
+  }
+}
+@media screen and (min-width: 864px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.5%;
+  }
+}
+@media screen and (min-width: 865px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.52083%;
+  }
+}
+@media screen and (min-width: 866px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.54167%;
+  }
+}
+@media screen and (min-width: 867px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.5625%;
+  }
+}
+@media screen and (min-width: 868px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.58333%;
+  }
+}
+@media screen and (min-width: 869px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.60417%;
+  }
+}
+@media screen and (min-width: 870px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.625%;
+  }
+}
+@media screen and (min-width: 871px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.64583%;
+  }
+}
+@media screen and (min-width: 872px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.66667%;
+  }
+}
+@media screen and (min-width: 873px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.6875%;
+  }
+}
+@media screen and (min-width: 874px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.70833%;
+  }
+}
+@media screen and (min-width: 875px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.72917%;
+  }
+}
+@media screen and (min-width: 876px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.75%;
+  }
+}
+@media screen and (min-width: 877px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.77083%;
+  }
+}
+@media screen and (min-width: 878px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.79167%;
+  }
+}
+@media screen and (min-width: 879px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.8125%;
+  }
+}
+@media screen and (min-width: 880px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.83333%;
+  }
+}
+@media screen and (min-width: 881px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.85417%;
+  }
+}
+@media screen and (min-width: 882px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.875%;
+  }
+}
+@media screen and (min-width: 883px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.89583%;
+  }
+}
+@media screen and (min-width: 884px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.91667%;
+  }
+}
+@media screen and (min-width: 885px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.9375%;
+  }
+}
+@media screen and (min-width: 886px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.95833%;
+  }
+}
+@media screen and (min-width: 887px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 105.97917%;
+  }
+}
+@media screen and (min-width: 888px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106%;
+  }
+}
+@media screen and (min-width: 889px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.02083%;
+  }
+}
+@media screen and (min-width: 890px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.04167%;
+  }
+}
+@media screen and (min-width: 891px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.0625%;
+  }
+}
+@media screen and (min-width: 892px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.08333%;
+  }
+}
+@media screen and (min-width: 893px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.10417%;
+  }
+}
+@media screen and (min-width: 894px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.125%;
+  }
+}
+@media screen and (min-width: 895px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.14583%;
+  }
+}
+@media screen and (min-width: 896px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.16667%;
+  }
+}
+@media screen and (min-width: 897px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.1875%;
+  }
+}
+@media screen and (min-width: 898px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.20833%;
+  }
+}
+@media screen and (min-width: 899px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.22917%;
+  }
+}
+@media screen and (min-width: 900px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.25%;
+  }
+}
+@media screen and (min-width: 901px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.27083%;
+  }
+}
+@media screen and (min-width: 902px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.29167%;
+  }
+}
+@media screen and (min-width: 903px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.3125%;
+  }
+}
+@media screen and (min-width: 904px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.33333%;
+  }
+}
+@media screen and (min-width: 905px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.35417%;
+  }
+}
+@media screen and (min-width: 906px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.375%;
+  }
+}
+@media screen and (min-width: 907px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.39583%;
+  }
+}
+@media screen and (min-width: 908px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.41667%;
+  }
+}
+@media screen and (min-width: 909px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.4375%;
+  }
+}
+@media screen and (min-width: 910px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.45833%;
+  }
+}
+@media screen and (min-width: 911px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.47917%;
+  }
+}
+@media screen and (min-width: 912px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.5%;
+  }
+}
+@media screen and (min-width: 913px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.52083%;
+  }
+}
+@media screen and (min-width: 914px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.54167%;
+  }
+}
+@media screen and (min-width: 915px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.5625%;
+  }
+}
+@media screen and (min-width: 916px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.58333%;
+  }
+}
+@media screen and (min-width: 917px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.60417%;
+  }
+}
+@media screen and (min-width: 918px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.625%;
+  }
+}
+@media screen and (min-width: 919px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.64583%;
+  }
+}
+@media screen and (min-width: 920px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.66667%;
+  }
+}
+@media screen and (min-width: 921px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.6875%;
+  }
+}
+@media screen and (min-width: 922px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.70833%;
+  }
+}
+@media screen and (min-width: 923px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.72917%;
+  }
+}
+@media screen and (min-width: 924px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.75%;
+  }
+}
+@media screen and (min-width: 925px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.77083%;
+  }
+}
+@media screen and (min-width: 926px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.79167%;
+  }
+}
+@media screen and (min-width: 927px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.8125%;
+  }
+}
+@media screen and (min-width: 928px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.83333%;
+  }
+}
+@media screen and (min-width: 929px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.85417%;
+  }
+}
+@media screen and (min-width: 930px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.875%;
+  }
+}
+@media screen and (min-width: 931px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.89583%;
+  }
+}
+@media screen and (min-width: 932px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.91667%;
+  }
+}
+@media screen and (min-width: 933px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.9375%;
+  }
+}
+@media screen and (min-width: 934px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.95833%;
+  }
+}
+@media screen and (min-width: 935px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 106.97917%;
+  }
+}
+@media screen and (min-width: 936px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107%;
+  }
+}
+@media screen and (min-width: 937px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.02083%;
+  }
+}
+@media screen and (min-width: 938px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.04167%;
+  }
+}
+@media screen and (min-width: 939px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.0625%;
+  }
+}
+@media screen and (min-width: 940px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.08333%;
+  }
+}
+@media screen and (min-width: 941px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.10417%;
+  }
+}
+@media screen and (min-width: 942px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.125%;
+  }
+}
+@media screen and (min-width: 943px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.14583%;
+  }
+}
+@media screen and (min-width: 944px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.16667%;
+  }
+}
+@media screen and (min-width: 945px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.1875%;
+  }
+}
+@media screen and (min-width: 946px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.20833%;
+  }
+}
+@media screen and (min-width: 947px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.22917%;
+  }
+}
+@media screen and (min-width: 948px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.25%;
+  }
+}
+@media screen and (min-width: 949px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.27083%;
+  }
+}
+@media screen and (min-width: 950px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.29167%;
+  }
+}
+@media screen and (min-width: 951px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.3125%;
+  }
+}
+@media screen and (min-width: 952px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.33333%;
+  }
+}
+@media screen and (min-width: 953px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.35417%;
+  }
+}
+@media screen and (min-width: 954px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.375%;
+  }
+}
+@media screen and (min-width: 955px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.39583%;
+  }
+}
+@media screen and (min-width: 956px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.41667%;
+  }
+}
+@media screen and (min-width: 957px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.4375%;
+  }
+}
+@media screen and (min-width: 958px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.45833%;
+  }
+}
+@media screen and (min-width: 959px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.47917%;
+  }
+}
+@media screen and (min-width: 960px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.5%;
+  }
+}
+@media screen and (min-width: 961px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.52083%;
+  }
+}
+@media screen and (min-width: 962px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.54167%;
+  }
+}
+@media screen and (min-width: 963px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.5625%;
+  }
+}
+@media screen and (min-width: 964px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.58333%;
+  }
+}
+@media screen and (min-width: 965px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.60417%;
+  }
+}
+@media screen and (min-width: 966px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.625%;
+  }
+}
+@media screen and (min-width: 967px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.64583%;
+  }
+}
+@media screen and (min-width: 968px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.66667%;
+  }
+}
+@media screen and (min-width: 969px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.6875%;
+  }
+}
+@media screen and (min-width: 970px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.70833%;
+  }
+}
+@media screen and (min-width: 971px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.72917%;
+  }
+}
+@media screen and (min-width: 972px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.75%;
+  }
+}
+@media screen and (min-width: 973px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.77083%;
+  }
+}
+@media screen and (min-width: 974px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.79167%;
+  }
+}
+@media screen and (min-width: 975px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.8125%;
+  }
+}
+@media screen and (min-width: 976px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.83333%;
+  }
+}
+@media screen and (min-width: 977px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.85417%;
+  }
+}
+@media screen and (min-width: 978px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.875%;
+  }
+}
+@media screen and (min-width: 979px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.89583%;
+  }
+}
+@media screen and (min-width: 980px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.91667%;
+  }
+}
+@media screen and (min-width: 981px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.9375%;
+  }
+}
+@media screen and (min-width: 982px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.95833%;
+  }
+}
+@media screen and (min-width: 983px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 107.97917%;
+  }
+}
+@media screen and (min-width: 984px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108%;
+  }
+}
+@media screen and (min-width: 985px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.02083%;
+  }
+}
+@media screen and (min-width: 986px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.04167%;
+  }
+}
+@media screen and (min-width: 987px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.0625%;
+  }
+}
+@media screen and (min-width: 988px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.08333%;
+  }
+}
+@media screen and (min-width: 989px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.10417%;
+  }
+}
+@media screen and (min-width: 990px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.125%;
+  }
+}
+@media screen and (min-width: 991px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.14583%;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.16667%;
+  }
+}
+@media screen and (min-width: 993px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.1875%;
+  }
+}
+@media screen and (min-width: 994px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.20833%;
+  }
+}
+@media screen and (min-width: 995px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.22917%;
+  }
+}
+@media screen and (min-width: 996px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.25%;
+  }
+}
+@media screen and (min-width: 997px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.27083%;
+  }
+}
+@media screen and (min-width: 998px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.29167%;
+  }
+}
+@media screen and (min-width: 999px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.3125%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.33333%;
+  }
+}
+@media screen and (min-width: 1001px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.35417%;
+  }
+}
+@media screen and (min-width: 1002px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.375%;
+  }
+}
+@media screen and (min-width: 1003px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.39583%;
+  }
+}
+@media screen and (min-width: 1004px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.41667%;
+  }
+}
+@media screen and (min-width: 1005px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.4375%;
+  }
+}
+@media screen and (min-width: 1006px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.45833%;
+  }
+}
+@media screen and (min-width: 1007px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.47917%;
+  }
+}
+@media screen and (min-width: 1008px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.5%;
+  }
+}
+@media screen and (min-width: 1009px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.52083%;
+  }
+}
+@media screen and (min-width: 1010px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.54167%;
+  }
+}
+@media screen and (min-width: 1011px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.5625%;
+  }
+}
+@media screen and (min-width: 1012px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.58333%;
+  }
+}
+@media screen and (min-width: 1013px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.60417%;
+  }
+}
+@media screen and (min-width: 1014px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.625%;
+  }
+}
+@media screen and (min-width: 1015px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.64583%;
+  }
+}
+@media screen and (min-width: 1016px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.66667%;
+  }
+}
+@media screen and (min-width: 1017px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.6875%;
+  }
+}
+@media screen and (min-width: 1018px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.70833%;
+  }
+}
+@media screen and (min-width: 1019px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.72917%;
+  }
+}
+@media screen and (min-width: 1020px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.75%;
+  }
+}
+@media screen and (min-width: 1021px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.77083%;
+  }
+}
+@media screen and (min-width: 1022px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.79167%;
+  }
+}
+@media screen and (min-width: 1023px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.8125%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.83333%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.85417%;
+  }
+}
+@media screen and (min-width: 1026px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.875%;
+  }
+}
+@media screen and (min-width: 1027px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.89583%;
+  }
+}
+@media screen and (min-width: 1028px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.91667%;
+  }
+}
+@media screen and (min-width: 1029px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.9375%;
+  }
+}
+@media screen and (min-width: 1030px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.95833%;
+  }
+}
+@media screen and (min-width: 1031px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 108.97917%;
+  }
+}
+@media screen and (min-width: 1032px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109%;
+  }
+}
+@media screen and (min-width: 1033px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.02083%;
+  }
+}
+@media screen and (min-width: 1034px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.04167%;
+  }
+}
+@media screen and (min-width: 1035px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.0625%;
+  }
+}
+@media screen and (min-width: 1036px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.08333%;
+  }
+}
+@media screen and (min-width: 1037px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.10417%;
+  }
+}
+@media screen and (min-width: 1038px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.125%;
+  }
+}
+@media screen and (min-width: 1039px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.14583%;
+  }
+}
+@media screen and (min-width: 1040px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.16667%;
+  }
+}
+@media screen and (min-width: 1041px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.1875%;
+  }
+}
+@media screen and (min-width: 1042px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.20833%;
+  }
+}
+@media screen and (min-width: 1043px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.22917%;
+  }
+}
+@media screen and (min-width: 1044px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.25%;
+  }
+}
+@media screen and (min-width: 1045px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.27083%;
+  }
+}
+@media screen and (min-width: 1046px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.29167%;
+  }
+}
+@media screen and (min-width: 1047px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.3125%;
+  }
+}
+@media screen and (min-width: 1048px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.33333%;
+  }
+}
+@media screen and (min-width: 1049px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.35417%;
+  }
+}
+@media screen and (min-width: 1050px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.375%;
+  }
+}
+@media screen and (min-width: 1051px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.39583%;
+  }
+}
+@media screen and (min-width: 1052px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.41667%;
+  }
+}
+@media screen and (min-width: 1053px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.4375%;
+  }
+}
+@media screen and (min-width: 1054px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.45833%;
+  }
+}
+@media screen and (min-width: 1055px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.47917%;
+  }
+}
+@media screen and (min-width: 1056px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.5%;
+  }
+}
+@media screen and (min-width: 1057px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.52083%;
+  }
+}
+@media screen and (min-width: 1058px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.54167%;
+  }
+}
+@media screen and (min-width: 1059px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.5625%;
+  }
+}
+@media screen and (min-width: 1060px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.58333%;
+  }
+}
+@media screen and (min-width: 1061px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.60417%;
+  }
+}
+@media screen and (min-width: 1062px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.625%;
+  }
+}
+@media screen and (min-width: 1063px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.64583%;
+  }
+}
+@media screen and (min-width: 1064px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.66667%;
+  }
+}
+@media screen and (min-width: 1065px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.6875%;
+  }
+}
+@media screen and (min-width: 1066px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.70833%;
+  }
+}
+@media screen and (min-width: 1067px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.72917%;
+  }
+}
+@media screen and (min-width: 1068px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.75%;
+  }
+}
+@media screen and (min-width: 1069px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.77083%;
+  }
+}
+@media screen and (min-width: 1070px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.79167%;
+  }
+}
+@media screen and (min-width: 1071px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.8125%;
+  }
+}
+@media screen and (min-width: 1072px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.83333%;
+  }
+}
+@media screen and (min-width: 1073px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.85417%;
+  }
+}
+@media screen and (min-width: 1074px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.875%;
+  }
+}
+@media screen and (min-width: 1075px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.89583%;
+  }
+}
+@media screen and (min-width: 1076px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.91667%;
+  }
+}
+@media screen and (min-width: 1077px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.9375%;
+  }
+}
+@media screen and (min-width: 1078px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.95833%;
+  }
+}
+@media screen and (min-width: 1079px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 109.97917%;
+  }
+}
+@media screen and (min-width: 1080px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110%;
+  }
+}
+@media screen and (min-width: 1081px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.02083%;
+  }
+}
+@media screen and (min-width: 1082px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.04167%;
+  }
+}
+@media screen and (min-width: 1083px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.0625%;
+  }
+}
+@media screen and (min-width: 1084px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.08333%;
+  }
+}
+@media screen and (min-width: 1085px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.10417%;
+  }
+}
+@media screen and (min-width: 1086px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.125%;
+  }
+}
+@media screen and (min-width: 1087px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.14583%;
+  }
+}
+@media screen and (min-width: 1088px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.16667%;
+  }
+}
+@media screen and (min-width: 1089px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.1875%;
+  }
+}
+@media screen and (min-width: 1090px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.20833%;
+  }
+}
+@media screen and (min-width: 1091px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.22917%;
+  }
+}
+@media screen and (min-width: 1092px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.25%;
+  }
+}
+@media screen and (min-width: 1093px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.27083%;
+  }
+}
+@media screen and (min-width: 1094px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.29167%;
+  }
+}
+@media screen and (min-width: 1095px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.3125%;
+  }
+}
+@media screen and (min-width: 1096px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.33333%;
+  }
+}
+@media screen and (min-width: 1097px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.35417%;
+  }
+}
+@media screen and (min-width: 1098px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.375%;
+  }
+}
+@media screen and (min-width: 1099px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.39583%;
+  }
+}
+@media screen and (min-width: 1100px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.41667%;
+  }
+}
+@media screen and (min-width: 1101px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.4375%;
+  }
+}
+@media screen and (min-width: 1102px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.45833%;
+  }
+}
+@media screen and (min-width: 1103px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.47917%;
+  }
+}
+@media screen and (min-width: 1104px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.5%;
+  }
+}
+@media screen and (min-width: 1105px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.52083%;
+  }
+}
+@media screen and (min-width: 1106px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.54167%;
+  }
+}
+@media screen and (min-width: 1107px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.5625%;
+  }
+}
+@media screen and (min-width: 1108px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.58333%;
+  }
+}
+@media screen and (min-width: 1109px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.60417%;
+  }
+}
+@media screen and (min-width: 1110px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.625%;
+  }
+}
+@media screen and (min-width: 1111px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.64583%;
+  }
+}
+@media screen and (min-width: 1112px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.66667%;
+  }
+}
+@media screen and (min-width: 1113px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.6875%;
+  }
+}
+@media screen and (min-width: 1114px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.70833%;
+  }
+}
+@media screen and (min-width: 1115px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.72917%;
+  }
+}
+@media screen and (min-width: 1116px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.75%;
+  }
+}
+@media screen and (min-width: 1117px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.77083%;
+  }
+}
+@media screen and (min-width: 1118px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.79167%;
+  }
+}
+@media screen and (min-width: 1119px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.8125%;
+  }
+}
+@media screen and (min-width: 1120px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.83333%;
+  }
+}
+@media screen and (min-width: 1121px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.85417%;
+  }
+}
+@media screen and (min-width: 1122px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.875%;
+  }
+}
+@media screen and (min-width: 1123px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.89583%;
+  }
+}
+@media screen and (min-width: 1124px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.91667%;
+  }
+}
+@media screen and (min-width: 1125px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.9375%;
+  }
+}
+@media screen and (min-width: 1126px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.95833%;
+  }
+}
+@media screen and (min-width: 1127px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 110.97917%;
+  }
+}
+@media screen and (min-width: 1128px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111%;
+  }
+}
+@media screen and (min-width: 1129px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.02083%;
+  }
+}
+@media screen and (min-width: 1130px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.04167%;
+  }
+}
+@media screen and (min-width: 1131px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.0625%;
+  }
+}
+@media screen and (min-width: 1132px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.08333%;
+  }
+}
+@media screen and (min-width: 1133px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.10417%;
+  }
+}
+@media screen and (min-width: 1134px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.125%;
+  }
+}
+@media screen and (min-width: 1135px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.14583%;
+  }
+}
+@media screen and (min-width: 1136px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.16667%;
+  }
+}
+@media screen and (min-width: 1137px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.1875%;
+  }
+}
+@media screen and (min-width: 1138px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.20833%;
+  }
+}
+@media screen and (min-width: 1139px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.22917%;
+  }
+}
+@media screen and (min-width: 1140px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.25%;
+  }
+}
+@media screen and (min-width: 1141px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.27083%;
+  }
+}
+@media screen and (min-width: 1142px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.29167%;
+  }
+}
+@media screen and (min-width: 1143px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.3125%;
+  }
+}
+@media screen and (min-width: 1144px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.33333%;
+  }
+}
+@media screen and (min-width: 1145px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.35417%;
+  }
+}
+@media screen and (min-width: 1146px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.375%;
+  }
+}
+@media screen and (min-width: 1147px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.39583%;
+  }
+}
+@media screen and (min-width: 1148px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.41667%;
+  }
+}
+@media screen and (min-width: 1149px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.4375%;
+  }
+}
+@media screen and (min-width: 1150px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.45833%;
+  }
+}
+@media screen and (min-width: 1151px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.47917%;
+  }
+}
+@media screen and (min-width: 1152px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.5%;
+  }
+}
+@media screen and (min-width: 1153px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.52083%;
+  }
+}
+@media screen and (min-width: 1154px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.54167%;
+  }
+}
+@media screen and (min-width: 1155px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.5625%;
+  }
+}
+@media screen and (min-width: 1156px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.58333%;
+  }
+}
+@media screen and (min-width: 1157px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.60417%;
+  }
+}
+@media screen and (min-width: 1158px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.625%;
+  }
+}
+@media screen and (min-width: 1159px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.64583%;
+  }
+}
+@media screen and (min-width: 1160px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.66667%;
+  }
+}
+@media screen and (min-width: 1161px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.6875%;
+  }
+}
+@media screen and (min-width: 1162px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.70833%;
+  }
+}
+@media screen and (min-width: 1163px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.72917%;
+  }
+}
+@media screen and (min-width: 1164px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.75%;
+  }
+}
+@media screen and (min-width: 1165px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.77083%;
+  }
+}
+@media screen and (min-width: 1166px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.79167%;
+  }
+}
+@media screen and (min-width: 1167px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.8125%;
+  }
+}
+@media screen and (min-width: 1168px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.83333%;
+  }
+}
+@media screen and (min-width: 1169px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.85417%;
+  }
+}
+@media screen and (min-width: 1170px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.875%;
+  }
+}
+@media screen and (min-width: 1171px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.89583%;
+  }
+}
+@media screen and (min-width: 1172px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.91667%;
+  }
+}
+@media screen and (min-width: 1173px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.9375%;
+  }
+}
+@media screen and (min-width: 1174px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.95833%;
+  }
+}
+@media screen and (min-width: 1175px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 111.97917%;
+  }
+}
+@media screen and (min-width: 1176px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112%;
+  }
+}
+@media screen and (min-width: 1177px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.02083%;
+  }
+}
+@media screen and (min-width: 1178px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.04167%;
+  }
+}
+@media screen and (min-width: 1179px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.0625%;
+  }
+}
+@media screen and (min-width: 1180px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.08333%;
+  }
+}
+@media screen and (min-width: 1181px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.10417%;
+  }
+}
+@media screen and (min-width: 1182px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.125%;
+  }
+}
+@media screen and (min-width: 1183px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.14583%;
+  }
+}
+@media screen and (min-width: 1184px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.16667%;
+  }
+}
+@media screen and (min-width: 1185px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.1875%;
+  }
+}
+@media screen and (min-width: 1186px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.20833%;
+  }
+}
+@media screen and (min-width: 1187px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.22917%;
+  }
+}
+@media screen and (min-width: 1188px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.25%;
+  }
+}
+@media screen and (min-width: 1189px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.27083%;
+  }
+}
+@media screen and (min-width: 1190px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.29167%;
+  }
+}
+@media screen and (min-width: 1191px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.3125%;
+  }
+}
+@media screen and (min-width: 1192px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.33333%;
+  }
+}
+@media screen and (min-width: 1193px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.35417%;
+  }
+}
+@media screen and (min-width: 1194px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.375%;
+  }
+}
+@media screen and (min-width: 1195px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.39583%;
+  }
+}
+@media screen and (min-width: 1196px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.41667%;
+  }
+}
+@media screen and (min-width: 1197px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.4375%;
+  }
+}
+@media screen and (min-width: 1198px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.45833%;
+  }
+}
+@media screen and (min-width: 1199px) {
+  /* line 273, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.47917%;
+  }
+}
+@media (max-width: 600px) {
+  /* line 283, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 283, ../scss/partials/_typography.scss */
+  :root {
+    font-size: 112.5%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
